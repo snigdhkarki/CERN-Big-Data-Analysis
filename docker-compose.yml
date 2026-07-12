@@ -1,0 +1,45 @@
+version: '3'
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    network_mode: "host"
+    environment:
+      - CLUSTER_NAME=demo_cluster
+      - CORE_CONF_fs_defaultFS=hdfs://localhost:9000
+    env_file:
+      - ./hadoop.env
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    network_mode: "host"
+    depends_on:
+      - namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://localhost:9000
+    env_file:
+      - ./hadoop.env
+
+  oracle:
+    image: gvenzl/oracle-xe:21-slim-faststart
+    network_mode: "host"
+    environment:
+      - ORACLE_PASSWORD=demo_password
+
+  spark-master:
+    image: apache/spark:3.5.0
+    network_mode: "host"
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    environment:
+      - SPARK_MASTER_HOST=localhost
+    volumes:
+      - ./ml_anomaly.py:/app/ml_anomaly.py   # mount script for submission
+
+  spark-worker:
+    image: apache/spark:3.5.0
+    network_mode: "host"
+    depends_on:
+      - spark-master
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
+    environment:
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1

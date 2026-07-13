@@ -7,5 +7,5 @@ sudo docker-compose down
 # Make your custom image
 docker build -t my-spark:3.5.0-numpy -f docker.spark .
 
-# Run the pipeline
-sudo ./run_pipeline.sh
+# Run the pipeline (run it inside python environment without SUDO)
+./run_pipeline.sh

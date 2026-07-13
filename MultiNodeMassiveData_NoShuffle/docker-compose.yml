@@ -1,0 +1,110 @@
+version: '3'
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    network_mode: "host"
+    environment:
+      - CLUSTER_NAME=demo_cluster
+      - CORE_CONF_fs_defaultFS=hdfs://localhost:9000
+    env_file:
+      - ./hadoop.env
+
+  # ---------- First DataNode (default ports) ----------
+  datanode1:        # renamed from 'datanode' to make it explicit
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    network_mode: "host"
+    depends_on:
+      - namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://localhost:9000
+      # Default ports – you can omit these, they are shown for clarity
+      - HDFS_CONF_dfs_datanode_address=0.0.0.0:9866
+      - HDFS_CONF_dfs_datanode_http_address=0.0.0.0:9864
+      - HDFS_CONF_dfs_datanode_ipc_address=0.0.0.0:9867
+    volumes:
+      - ./data/datanode1:/hadoop/data   # unique host directory
+    env_file:
+      - ./hadoop.env
+    deploy:
+      resources:
+        limits:
+          memory: 512M   # or 1G depending on your RAM
+          cpus: '0.5'
+
+  # ---------- Second DataNode (different ports + data dir) ----------
+  datanode2:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    network_mode: "host"
+    depends_on:
+      - namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://localhost:9000
+      - HDFS_CONF_dfs_datanode_address=0.0.0.0:9868
+      - HDFS_CONF_dfs_datanode_http_address=0.0.0.0:9869
+      - HDFS_CONF_dfs_datanode_ipc_address=0.0.0.0:9871 
+    volumes:
+      - ./data/datanode2:/hadoop/data
+    env_file:
+      - ./hadoop.env
+    deploy:
+      resources:
+        limits:
+          memory: 512M   # or 1G depending on your RAM
+          cpus: '0.5'
+
+  oracle:
+    image: gvenzl/oracle-xe:21-slim-faststart
+    network_mode: "host"
+    environment:
+      - ORACLE_PASSWORD=demo_password
+
+  spark-master:
+    image: my-spark:3.5.0-numpy
+    network_mode: "host"
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    environment:
+      - SPARK_MASTER_HOST=localhost
+    volumes:
+      - ./ml_anomaly.py:/app/ml_anomaly.py
+    deploy:
+      resources:
+        limits:
+          memory: 1G          # increased for driver stability
+          cpus: '0.5'
+
+  # ---------- First Worker (default ports) ----------
+  spark-worker1:   # renamed from 'spark-worker'
+    image: my-spark:3.5.0-numpy
+    network_mode: "host"
+    depends_on:
+      - spark-master
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
+    environment:
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      # RPC port: default 0 (random) – we fix it to avoid conflict
+      - SPARK_WORKER_PORT=8081
+      - SPARK_WORKER_WEBUI_PORT=8082   # web UI (the first one will be 8081 by default if not set? Actually master web UI is 8080, worker1 defaults to 8081)
+    deploy:
+      resources:
+        limits:
+          memory: 1.5G   # or 1G depending on your RAM
+          cpus: '0.5'
+
+  # ---------- Second Worker (different RPC and WebUI ports) ----------
+  spark-worker2:
+    image: my-spark:3.5.0-numpy
+    network_mode: "host"
+    depends_on:
+      - spark-master
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
+    environment:
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_PORT=8083
+      - SPARK_WORKER_WEBUI_PORT=8084
+    deploy:
+      resources:
+        limits:
+          memory: 1.5G   # or 1G depending on your RAM
+          cpus: '0.5'

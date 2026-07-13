@@ -5,7 +5,7 @@ sudo docker rm -f bigdata_spark-master_1
 sudo docker-compose down
 
 # Make your custom image
-docker build -t my-spark:3.5.0-numpy -f docker.spark .
+sudo docker build -t my-spark:3.5.0-numpy -f Dockerfile.spark .
 
 # Run the pipeline (run it inside python environment without SUDO)
 ./run_pipeline.sh

@@ -575,7 +575,7 @@ def score_sequential_distributed(spark, seq_shard_df, model, model_builder, feat
 def estimate_dbscan_eps(X, k):
     nn_model = NearestNeighbors(n_neighbors=k).fit(X)
     dists, _ = nn_model.kneighbors(X)
-    return float(np.percentile(np.sort(dists[:, -1]), 90))
+    return float(np.percentile(np.sort(dists[:, -1]), 95))
  
  
 def distributed_dbscan_core_points(spark, scaled_df, feature_cols, num_partitions=NUM_WORKERS,
@@ -668,7 +668,7 @@ def make_iso_ensemble_udf(spark, forests):
 # ========================================================================
 # RL Adaptive Threshold (unchanged - already efficient, see notes above)
 # ========================================================================
-def rl_tune_adaptive_threshold(df, feature_cols, target_rate=0.02, episodes=150,
+def rl_tune_adaptive_threshold(df, feature_cols, target_rate=0.05, episodes=150,
                                 epsilon_start=1.0, epsilon_min=0.05, decay=0.97, seed=RANDOM_SEED):
     rng = np.random.default_rng(seed)
     stat_exprs = []
@@ -759,7 +759,7 @@ def main():
         return pd.Series(d.min(axis=1))
  
     working_df = kmeans_model.transform(scaled_df).withColumn("kmeans_dist", dist_to_nearest_center(*Z_COLS))
-    working_df = threshold_flag(working_df, "kmeans_dist", "kmeans_flag")
+    working_df = threshold_flag(working_df, "kmeans_dist", "kmeans_flag", n_std=0.7)
  
     print("\n[MLlib] Algorithm 2: Gaussian Mixture Model...")
     gmm = GaussianMixture(featuresCol="scaled_features", predictionCol="gmm_cluster",
@@ -787,7 +787,7 @@ def main():
     forests = distributed_isolation_forest(spark, scaled_df, Z_COLS)
     iso_udf = make_iso_ensemble_udf(spark, forests)
     working_df = working_df.withColumn("iso_score", iso_udf(*Z_COLS))
-    working_df = threshold_flag(working_df, "iso_score", "iso_flag")
+    working_df = threshold_flag(working_df, "iso_score", "iso_flag", n_std=2.3)
  
     # ------------------------------------------------------------------
     # Write HDFS training shards once, reused by every DDP job below
@@ -837,7 +837,7 @@ def main():
     working_df = working_df.withColumn(
         "dagmm_energy", -F.log(F.array_max(vector_to_array(F.col("dagmm_probability"))) + F.lit(1e-12))
     )
-    working_df = threshold_flag(working_df, "dagmm_energy", "dagmm_flag")
+    working_df = threshold_flag(working_df, "dagmm_energy", "dagmm_flag", n_std=0.3)
  
     # ==================================================================
     # SECTION 5 - VAE (DDP-trained)
@@ -861,21 +861,22 @@ def main():
  
     vae_udf = make_torch_scalar_udf(spark, TorchVAE, vae, vae_score, "vae_score")
     working_df = working_df.withColumn("vae_score", vae_udf(*Z_COLS))
-    working_df = threshold_flag(working_df, "vae_score", "vae_flag")
+    working_df = threshold_flag(working_df, "vae_score", "vae_flag", n_std=1.8)
  
     # ==================================================================
     # SECTION 6 - GAN (DDP-trained G + D)
     # ==================================================================
     print("\n[TorchDistributor] Algorithm 9: GAN (Generator / Discriminator)...")
-    noise_dim = 4
-    _, D = distributed_train_gan(lambda: Generator(noise_dim), Discriminator, ROW_SHARD_PATH, Z_COLS, noise_dim)
+    noise_dim = 8
+    _, D = distributed_train_gan(lambda: Generator(noise_dim), Discriminator, ROW_SHARD_PATH, Z_COLS, noise_dim,
+                                  epochs=30, lr=5e-5)
  
     def gan_score(m, xb):
         return (1.0 - m(xb)).squeeze(-1).numpy()
  
     gan_udf = make_torch_scalar_udf(spark, Discriminator, D, gan_score, "gan_score")
     working_df = working_df.withColumn("gan_score", gan_udf(*Z_COLS))
-    working_df = threshold_flag(working_df, "gan_score", "gan_flag")
+    working_df = threshold_flag(working_df, "gan_score", "gan_flag", n_std=1.5)
  
     # ==================================================================
     # SECTION 7 - USAD (DDP-trained)
@@ -899,7 +900,7 @@ def main():
  
     usad_udf = make_torch_scalar_udf(spark, USADModel, usad, usad_score, "usad_score")
     working_df = working_df.withColumn("usad_score", usad_udf(*Z_COLS))
-    working_df = threshold_flag(working_df, "usad_score", "usad_flag")
+    working_df = threshold_flag(working_df, "usad_score", "usad_flag", n_std=0.3)
  
     # ==================================================================
     # SECTION 8 - Transformer (DDP-trained)
@@ -916,7 +917,7 @@ def main():
  
     trf_udf = make_torch_scalar_udf(spark, TinyTransformerAE, trf, trf_score, "transformer_score")
     working_df = working_df.withColumn("transformer_score", trf_udf(*Z_COLS))
-    working_df = threshold_flag(working_df, "transformer_score", "transformer_flag")
+    working_df = threshold_flag(working_df, "transformer_score", "transformer_flag", n_std=0.75)
  
     # ==================================================================
     # SECTION 9 & 10 - LSTM / OmniAnomaly: DDP training + distributed
@@ -943,7 +944,7 @@ def main():
     )
     working_df = working_df.join(lstm_scores_df, on="ID", how="left")
     lstm_stats = lstm_scores_df.select(F.mean("lstm_score").alias("m"), F.stddev_pop("lstm_score").alias("s")).first()
-    lstm_thr = lstm_stats["m"] + 3 * lstm_stats["s"]
+    lstm_thr = lstm_stats["m"] + 0.6 * lstm_stats["s"]
     working_df = working_df.withColumn("lstm_flag", F.when(F.col("lstm_score") > F.lit(lstm_thr), 1).otherwise(0))
  
     print("\n[TorchDistributor] Algorithm 13: OmniAnomaly (GRU + stochastic VAE)...")
@@ -970,7 +971,7 @@ def main():
     )
     working_df = working_df.join(omni_scores_df, on="ID", how="left")
     omni_stats = omni_scores_df.select(F.mean("omni_score").alias("m"), F.stddev_pop("omni_score").alias("s")).first()
-    omni_thr = omni_stats["m"] + 3 * omni_stats["s"]
+    omni_thr = omni_stats["m"] + 1.5 * omni_stats["s"]
     working_df = working_df.withColumn("omni_flag", F.when(F.col("omni_score") > F.lit(omni_thr), 1).otherwise(0))
  
     # rows in a boundary gap (last window-1 of each shard) get no score - default to 0, not anomalous

@@ -1,0 +1,45 @@
+FROM apache/spark:3.5.0
+
+# Switch to root for system package installation
+USER root
+
+# Install wget (needed to download Hadoop)
+RUN apt-get update && apt-get install -y wget && rm -rf /var/lib/apt/lists/*
+
+# Download Hadoop 3.2.1 (matching your NameNode)
+ENV HADOOP_VERSION=3.2.1
+RUN wget -q https://archive.apache.org/dist/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz \
+    && tar -xzf hadoop-${HADOOP_VERSION}.tar.gz -C /opt \
+    && mv /opt/hadoop-${HADOOP_VERSION} /opt/hadoop \
+    && rm hadoop-${HADOOP_VERSION}.tar.gz \
+    && apt-get remove -y wget && apt-get autoremove -y \
+    && chmod -R a+rX /opt/hadoop
+
+# Tell PyArrow where libhdfs.so lives
+ENV HADOOP_HOME=/opt/hadoop
+ENV HADOOP_CONF_DIR=/opt/hadoop/etc/hadoop
+ENV PATH=/opt/hadoop/bin:$PATH
+ENV LD_LIBRARY_PATH=/opt/hadoop/lib/native:$LD_LIBRARY_PATH
+ENV HADOOP_OPTS="-Djava.library.path=/opt/hadoop/lib/native"
+
+# Minimal core-site.xml matching the namenode's own fs.defaultFS, so Hadoop
+# client tooling (and libhdfs) has a sane default to fall back on.
+COPY core-site.xml /opt/hadoop/etc/hadoop/core-site.xml
+
+# Install Python packages (as root, they become globally available)
+RUN pip install --no-cache-dir numpy torch scikit-learn pandas pyarrow
+
+# PyArrow's HDFS filesystem uses libhdfs, which embeds its own JVM and reads
+# the CLASSPATH env var directly - it does NOT share Spark's own classpath.
+# That's what was missing before: Spark itself worked fine (it has its own
+# classpath handling), but any code path using pandas/pyarrow to talk to
+# HDFS directly (as TorchDistributor worker processes do) failed with
+# "CLASSPATH not set" / "HDFS connection failed". This wrapper computes it
+# at container start, then hands off to Spark's real entrypoint.
+COPY hdfs-entrypoint.sh /opt/hdfs-entrypoint.sh
+RUN chmod +x /opt/hdfs-entrypoint.sh
+
+# Switch back to the non‑root user that Spark expects
+USER spark
+
+ENTRYPOINT ["/opt/hdfs-entrypoint.sh"]

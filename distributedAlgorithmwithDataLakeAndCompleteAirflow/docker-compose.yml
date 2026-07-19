@@ -1,0 +1,134 @@
+version: '3'
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    networks:
+      - bigdata-net
+    environment:
+      - CLUSTER_NAME=demo_cluster
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000   # use service name
+    env_file:
+      - ./hadoop.env
+    ports:
+      - "9000:9000"      # HDFS client port (for host ETL)
+      - "9870:9870"      # NameNode web UI (optional)
+
+  datanode1:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    networks:
+      - bigdata-net
+    depends_on:
+      - namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_datanode_address=0.0.0.0:9866
+      - HDFS_CONF_dfs_datanode_http_address=0.0.0.0:9864
+      - HDFS_CONF_dfs_datanode_ipc_address=0.0.0.0:9867
+      - HDFS_CONF_dfs_datanode_hostname=datanode1     # advertised hostname
+    volumes:
+      - ./data/datanode1:/hadoop/data
+    env_file:
+      - ./hadoop.env
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  datanode2:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    networks:
+      - bigdata-net
+    depends_on:
+      - namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_datanode_address=0.0.0.0:9868
+      - HDFS_CONF_dfs_datanode_http_address=0.0.0.0:9869
+      - HDFS_CONF_dfs_datanode_ipc_address=0.0.0.0:9871
+      - HDFS_CONF_dfs_datanode_hostname=datanode2
+    volumes:
+      - ./data/datanode2:/hadoop/data
+    env_file:
+      - ./hadoop.env
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  oracle:
+    image: gvenzl/oracle-xe:21-slim-faststart
+    networks:
+      - bigdata-net
+    environment:
+      - ORACLE_PASSWORD=demo_password
+    ports:
+      - "1521:1521"      # Oracle client port (for host ETL)
+
+  spark-master:
+    image: my-spark:3.5.0-numpy
+    networks:
+      - bigdata-net
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    environment:
+      - SPARK_MASTER_HOST=0.0.0.0
+      - SPARK_MASTER_WEBUI_PORT=8080
+    ports:
+      - "8080:8080"      # Master web UI (optional)
+      - "4040:4040"      # Driver UI for the first application
+    volumes:
+      - ./spark_jobs:/app   # common.py + one task_*.py per algorithm (was a single ml_anomaly.py)
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '0.5'
+
+  spark-worker1:
+    image: my-spark:3.5.0-numpy
+    networks:
+      - bigdata-net
+    depends_on:
+      - spark-master
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077   # use service name
+    environment:
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_PORT=8081
+      - SPARK_WORKER_WEBUI_PORT=8082
+      - SPARK_LOCAL_HOSTNAME=spark-worker1        # advertised hostname
+      - PYTHONPATH=/app 
+    volumes:
+      - ./spark_jobs:/app          
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '0.5'
+
+  spark-worker2:
+    image: my-spark:3.5.0-numpy
+    networks:
+      - bigdata-net
+    depends_on:
+      - spark-master
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    environment:
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_PORT=8083
+      - SPARK_WORKER_WEBUI_PORT=8084
+      - SPARK_LOCAL_HOSTNAME=spark-worker2
+      - PYTHONPATH=/app  
+    volumes:
+      - ./spark_jobs:/app 
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '0.5'
+
+networks:
+  bigdata-net:
+    driver: bridge

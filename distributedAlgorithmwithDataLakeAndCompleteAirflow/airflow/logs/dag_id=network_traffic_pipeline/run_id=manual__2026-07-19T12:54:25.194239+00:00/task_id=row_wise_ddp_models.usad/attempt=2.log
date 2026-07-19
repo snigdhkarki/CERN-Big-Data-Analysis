@@ -1,0 +1,311 @@
+[2026-07-19T19:09:03.285+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-19T19:09:03.302+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.row_wise_ddp_models.usad manual__2026-07-19T12:54:25.194239+00:00 [queued]>
+[2026-07-19T19:09:03.308+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.row_wise_ddp_models.usad manual__2026-07-19T12:54:25.194239+00:00 [queued]>
+[2026-07-19T19:09:03.308+0545] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2026-07-19T19:09:03.321+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): row_wise_ddp_models.usad> on 2026-07-19 12:54:25.194239+00:00
+[2026-07-19T19:09:03.325+0545] {standard_task_runner.py:64} INFO - Started process 50349 to run task
+[2026-07-19T19:09:03.328+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'row_wise_ddp_models.usad', 'manual__2026-07-19T12:54:25.194239+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmptug4o2nw']
+[2026-07-19T19:09:03.330+0545] {standard_task_runner.py:91} INFO - Job 29: Subtask row_wise_ddp_models.usad
+[2026-07-19T19:09:03.358+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.row_wise_ddp_models.usad manual__2026-07-19T12:54:25.194239+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-19T19:09:03.407+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='row_wise_ddp_models.usad' AIRFLOW_CTX_EXECUTION_DATE='2026-07-19T12:54:25.194239+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-19T12:54:25.194239+00:00'
+[2026-07-19T19:09:03.408+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-19T19:09:03.409+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-19T19:09:03.409+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose exec spark-master /opt/spark/bin/spark-submit --master spark://localhost:7077 --py-files /app/common.py --conf spark.ui.port=4040 --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog /app/task_usad.py']
+[2026-07-19T19:09:03.419+0545] {subprocess.py:86} INFO - Output:
+[2026-07-19T19:09:14.615+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SparkContext: Running Spark version 3.5.0
+[2026-07-19T19:09:14.621+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SparkContext: OS info Linux, 6.8.0-136-generic, amd64
+[2026-07-19T19:09:14.621+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SparkContext: Java version 11.0.20.1
+[2026-07-19T19:09:14.714+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceUtils: ==============================================================
+[2026-07-19T19:09:14.714+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-07-19T19:09:14.714+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceUtils: ==============================================================
+[2026-07-19T19:09:14.714+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SparkContext: Submitted application: anomaly_usad
+[2026-07-19T19:09:14.810+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-07-19T19:09:14.820+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceProfile: Limiting resource is cpu
+[2026-07-19T19:09:14.820+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-07-19T19:09:14.918+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SecurityManager: Changing view acls to: spark
+[2026-07-19T19:09:14.919+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SecurityManager: Changing modify acls to: spark
+[2026-07-19T19:09:14.919+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SecurityManager: Changing view acls groups to:
+[2026-07-19T19:09:14.919+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SecurityManager: Changing modify acls groups to:
+[2026-07-19T19:09:14.919+0545] {subprocess.py:93} INFO - 26/07/19 13:24:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-07-19T19:09:15.512+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO Utils: Successfully started service 'sparkDriver' on port 39381.
+[2026-07-19T19:09:15.612+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO SparkEnv: Registering MapOutputTracker
+[2026-07-19T19:09:15.724+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO SparkEnv: Registering BlockManagerMaster
+[2026-07-19T19:09:15.808+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-07-19T19:09:15.809+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-07-19T19:09:15.812+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-07-19T19:09:15.824+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-3416a401-379f-43ee-a6da-cfdf727c2793
+[2026-07-19T19:09:15.918+0545] {subprocess.py:93} INFO - 26/07/19 13:24:15 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2026-07-19T19:09:16.013+0545] {subprocess.py:93} INFO - 26/07/19 13:24:16 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-07-19T19:09:16.609+0545] {subprocess.py:93} INFO - 26/07/19 13:24:16 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-07-19T19:09:16.716+0545] {subprocess.py:93} INFO - 26/07/19 13:24:16 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-07-19T19:09:16.820+0545] {subprocess.py:93} INFO - 26/07/19 13:24:16 INFO SparkContext: Added file file:///app/common.py at spark://4ea06c45d400:39381/files/common.py with timestamp 1784467454608
+[2026-07-19T19:09:16.821+0545] {subprocess.py:93} INFO - 26/07/19 13:24:16 INFO Utils: Copying /app/common.py to /tmp/spark-5931a285-f561-4cd9-a786-7cf49b97df83/userFiles-7ce2c365-044e-4030-8ed1-b3093ce14c76/common.py
+[2026-07-19T19:09:17.220+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://localhost:7077...
+[2026-07-19T19:09:17.503+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:7077 after 112 ms (0 ms spent in bootstraps)
+[2026-07-19T19:09:17.727+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260719132417-0019
+[2026-07-19T19:09:17.802+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260719132417-0019/0 on worker-20260719125443-spark-worker2-8083 (spark-worker2:8083) with 1 core(s)
+[2026-07-19T19:09:17.803+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneSchedulerBackend: Granted executor ID app-20260719132417-0019/0 on hostPort spark-worker2:8083 with 1 core(s), 1024.0 MiB RAM
+[2026-07-19T19:09:17.804+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260719132417-0019/1 on worker-20260719125443-spark-worker1-8081 (spark-worker1:8081) with 1 core(s)
+[2026-07-19T19:09:17.804+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneSchedulerBackend: Granted executor ID app-20260719132417-0019/1 on hostPort spark-worker1:8081 with 1 core(s), 1024.0 MiB RAM
+[2026-07-19T19:09:17.807+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34763.
+[2026-07-19T19:09:17.808+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO NettyBlockTransferService: Server created on 4ea06c45d400:34763
+[2026-07-19T19:09:17.809+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-07-19T19:09:17.813+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260719132417-0019/0 is now RUNNING
+[2026-07-19T19:09:17.814+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 4ea06c45d400, 34763, None)
+[2026-07-19T19:09:17.903+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260719132417-0019/1 is now RUNNING
+[2026-07-19T19:09:17.905+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO BlockManagerMasterEndpoint: Registering block manager 4ea06c45d400:34763 with 413.9 MiB RAM, BlockManagerId(driver, 4ea06c45d400, 34763, None)
+[2026-07-19T19:09:17.906+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 4ea06c45d400, 34763, None)
+[2026-07-19T19:09:17.907+0545] {subprocess.py:93} INFO - 26/07/19 13:24:17 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 4ea06c45d400, 34763, None)
+[2026-07-19T19:09:18.417+0545] {subprocess.py:93} INFO - 26/07/19 13:24:18 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-07-19T19:09:45.414+0545] {subprocess.py:93} INFO - [TorchDistributor] USAD: launching 2-way DDP (across cluster executors)...
+[2026-07-19T19:09:46.422+0545] {subprocess.py:93} INFO - Started distributed training with 2 executor processes
+[2026-07-19T19:10:03.177+0545] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-07-19T19:10:03.178+0545] {subprocess.py:93} INFO -   File "/tmp/tmp1ww651t6/train.py", line 7, in <module>
+[2026-07-19T19:10:03.178+0545] {subprocess.py:93} INFO -     train_fn, args, kwargs = cloudpickle.load(f)
+[2026-07-19T19:10:03.178+0545] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'common'
+[2026-07-19T19:10:03.217+0545] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-07-19T19:10:03.217+0545] {subprocess.py:93} INFO -   File "/tmp/tmp2zgtgtxg/train.py", line 7, in <module>
+[2026-07-19T19:10:03.217+0545] {subprocess.py:93} INFO -     train_fn, args, kwargs = cloudpickle.load(f)
+[2026-07-19T19:10:03.217+0545] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'common'
+[2026-07-19T19:10:03.779+0545] {subprocess.py:93} INFO - E0719 13:25:03.753924 139527262394176 torch/distributed/elastic/multiprocessing/api.py:833] failed (exitcode: 1) local_rank: 0 (pid: 2072) of binary: /usr/bin/python3
+[2026-07-19T19:10:03.779+0545] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-07-19T19:10:03.779+0545] {subprocess.py:93} INFO -   File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -     return _run_code(code, main_globals, None,
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -   File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -     exec(code, run_globals)
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 905, in <module>
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -     main()
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -     return f(*args, **kwargs)
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 901, in main
+[2026-07-19T19:10:03.780+0545] {subprocess.py:93} INFO -     run(args)
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 892, in run
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -     elastic_launch(
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 133, in __call__
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -     return launch_agent(self._config, self._entrypoint, list(args))
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO -     raise ChildFailedError(
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO - torch.distributed.elastic.multiprocessing.errors.ChildFailedError:
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO - ============================================================
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO - /tmp/tmp1ww651t6/train.py FAILED
+[2026-07-19T19:10:03.781+0545] {subprocess.py:93} INFO - ------------------------------------------------------------
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO - Failures:
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO -   <NO_OTHER_FAILURES>
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO - ------------------------------------------------------------
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO - Root Cause (first observed failure):
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO - [0]:
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO -   time      : 2026-07-19_13:25:03
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO -   host      : 47397ef711f3
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO -   rank      : 1 (local_rank: 0)
+[2026-07-19T19:10:03.782+0545] {subprocess.py:93} INFO -   exitcode  : 1 (pid: 2072)
+[2026-07-19T19:10:03.783+0545] {subprocess.py:93} INFO -   error_file: <N/A>
+[2026-07-19T19:10:03.783+0545] {subprocess.py:93} INFO -   traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2026-07-19T19:10:03.783+0545] {subprocess.py:93} INFO - ============================================================
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO - E0719 13:25:03.814780 131894888359744 torch/distributed/elastic/multiprocessing/api.py:833] failed (exitcode: 1) local_rank: 0 (pid: 2082) of binary: /usr/bin/python3
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -   File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -     return _run_code(code, main_globals, None,
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -   File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -     exec(code, run_globals)
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 905, in <module>
+[2026-07-19T19:10:03.819+0545] {subprocess.py:93} INFO -     main()
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -     return f(*args, **kwargs)
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 901, in main
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -     run(args)
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/run.py", line 892, in run
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -     elastic_launch(
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 133, in __call__
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -     return launch_agent(self._config, self._entrypoint, list(args))
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+[2026-07-19T19:10:03.820+0545] {subprocess.py:93} INFO -     raise ChildFailedError(
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - torch.distributed.elastic.multiprocessing.errors.ChildFailedError:
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - ============================================================
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - /tmp/tmp2zgtgtxg/train.py FAILED
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - ------------------------------------------------------------
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - Failures:
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO -   <NO_OTHER_FAILURES>
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - ------------------------------------------------------------
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - Root Cause (first observed failure):
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO - [0]:
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO -   time      : 2026-07-19_13:25:03
+[2026-07-19T19:10:03.821+0545] {subprocess.py:93} INFO -   host      : c76ddd275e63
+[2026-07-19T19:10:03.822+0545] {subprocess.py:93} INFO -   rank      : 0 (local_rank: 0)
+[2026-07-19T19:10:03.822+0545] {subprocess.py:93} INFO -   exitcode  : 1 (pid: 2082)
+[2026-07-19T19:10:03.822+0545] {subprocess.py:93} INFO -   error_file: <N/A>
+[2026-07-19T19:10:03.822+0545] {subprocess.py:93} INFO -   traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2026-07-19T19:10:03.822+0545] {subprocess.py:93} INFO - ============================================================
+[2026-07-19T19:10:04.466+0545] {subprocess.py:93} INFO - 26/07/19 13:25:04 WARN TaskSetManager: Lost task 1.0 in stage 1.0 (TID 1) (spark-worker1 executor 1): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2026-07-19T19:10:04.466+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 1247, in main
+[2026-07-19T19:10:04.466+0545] {subprocess.py:93} INFO -     process()
+[2026-07-19T19:10:04.466+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 1239, in process
+[2026-07-19T19:10:04.466+0545] {subprocess.py:93} INFO -     serializer.dump_stream(out_iter, outfile)
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 161, in dump_stream
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -     return super(ArrowStreamUDFSerializer, self).dump_stream(wrap_and_init_stream(), stream)
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 100, in dump_stream
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -     for batch in iterator:
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 146, in wrap_and_init_stream
+[2026-07-19T19:10:04.467+0545] {subprocess.py:93} INFO -     for batch, _ in iterator:
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 931, in func
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -     for result_batch, result_type in result_iter:
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 720, in wrapped_train_fn
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -     output = TorchDistributor._get_output_from_framework_wrapper(
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 566, in _get_output_from_framework_wrapper
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -     return framework_wrapper(
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 907, in _run_training_on_pytorch_function
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO -     raise RuntimeError(
+[2026-07-19T19:10:04.468+0545] {subprocess.py:93} INFO - RuntimeError: TorchDistributor failed during training.View stdout logs for detailed error message.
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:572)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.python.PythonArrowOutput$$anon$1.read(PythonArrowOutput.scala:118)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:525)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:388)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+[2026-07-19T19:10:04.469+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+[2026-07-19T19:10:04.470+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+[2026-07-19T19:10:04.471+0545] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+[2026-07-19T19:10:04.471+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2026-07-19T19:10:04.471+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2026-07-19T19:10:04.471+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Unknown Source)
+[2026-07-19T19:10:04.471+0545] {subprocess.py:93} INFO - 
+[2026-07-19T19:10:05.523+0545] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-07-19T19:10:05.524+0545] {subprocess.py:93} INFO -   File "/app/task_usad.py", line 41, in <module>
+[2026-07-19T19:10:05.524+0545] {subprocess.py:93} INFO -     main()
+[2026-07-19T19:10:05.524+0545] {subprocess.py:93} INFO -   File "/app/task_usad.py", line 24, in main
+[2026-07-19T19:10:05.525+0545] {subprocess.py:93} INFO -     usad = distributed_train(USADModel, usad_loss, ROW_SHARD_PATH, Z_COLS, label="USAD")
+[2026-07-19T19:10:05.525+0545] {subprocess.py:93} INFO -   File "/app/common.py", line 357, in distributed_train
+[2026-07-19T19:10:05.525+0545] {subprocess.py:93} INFO -     state_dict = TorchDistributor(num_processes=num_processes, local_mode=local_mode, use_gpu=USE_GPU).run(train_fn)
+[2026-07-19T19:10:05.525+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 1005, in run
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 1025, in _run
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 801, in _run_distributed_training
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/dataframe.py", line 1257, in collect
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+[2026-07-19T19:10:05.526+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2026-07-19T19:10:05.527+0545] {subprocess.py:93} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling o56.collectToPython.
+[2026-07-19T19:10:05.527+0545] {subprocess.py:93} INFO - : org.apache.spark.SparkException: Job aborted due to stage failure: Could not recover from a failed barrier ResultStage. Most recent failure reason: Stage failed because barrier task ResultTask(1, 1) finished unsuccessfully.
+[2026-07-19T19:10:05.527+0545] {subprocess.py:93} INFO - org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+[2026-07-19T19:10:05.527+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 1247, in main
+[2026-07-19T19:10:05.527+0545] {subprocess.py:93} INFO -     process()
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 1239, in process
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -     serializer.dump_stream(out_iter, outfile)
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 161, in dump_stream
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -     return super(ArrowStreamUDFSerializer, self).dump_stream(wrap_and_init_stream(), stream)
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 100, in dump_stream
+[2026-07-19T19:10:05.528+0545] {subprocess.py:93} INFO -     for batch in iterator:
+[2026-07-19T19:10:05.529+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/pandas/serializers.py", line 146, in wrap_and_init_stream
+[2026-07-19T19:10:05.529+0545] {subprocess.py:93} INFO -     for batch, _ in iterator:
+[2026-07-19T19:10:05.529+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 931, in func
+[2026-07-19T19:10:05.529+0545] {subprocess.py:93} INFO -     for result_batch, result_type in result_iter:
+[2026-07-19T19:10:05.529+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 720, in wrapped_train_fn
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO -     output = TorchDistributor._get_output_from_framework_wrapper(
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 566, in _get_output_from_framework_wrapper
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO -     return framework_wrapper(
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/ml/torch/distributor.py", line 907, in _run_training_on_pytorch_function
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO -     raise RuntimeError(
+[2026-07-19T19:10:05.530+0545] {subprocess.py:93} INFO - RuntimeError: TorchDistributor failed during training.View stdout logs for detailed error message.
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:572)
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.python.PythonArrowOutput$$anon$1.read(PythonArrowOutput.scala:118)
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:525)
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+[2026-07-19T19:10:05.531+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:491)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:460)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:388)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:890)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:890)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:364)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.iterator(RDD.scala:328)
+[2026-07-19T19:10:05.532+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Unknown Source)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2844)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2780)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2779)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+[2026-07-19T19:10:05.533+0545] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2779)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.handleTaskCompletion(DAGScheduler.scala:2216)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:3042)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2982)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2971)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:984)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2398)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2419)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2438)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2463)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1046)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+[2026-07-19T19:10:05.534+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.withScope(RDD.scala:407)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.collect(RDD.scala:1045)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SparkPlan.executeCollect(SparkPlan.scala:448)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.Dataset.$anonfun$collectToPython$1(Dataset.scala:4160)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.Dataset.$anonfun$withAction$2(Dataset.scala:4334)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:546)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.Dataset.$anonfun$withAction$1(Dataset.scala:4332)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.Dataset.withAction(Dataset.scala:4332)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at org.apache.spark.sql.Dataset.collectToPython(Dataset.scala:4157)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2026-07-19T19:10:05.535+0545] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Unknown Source)
+[2026-07-19T19:10:05.536+0545] {subprocess.py:93} INFO - 
+[2026-07-19T19:10:06.916+0545] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-07-19T19:10:06.917+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-19T19:10:06.921+0545] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-07-19T19:10:06.923+0545] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=network_traffic_pipeline, task_id=row_wise_ddp_models.usad, run_id=manual__2026-07-19T12:54:25.194239+00:00, execution_date=20260719T125425, start_date=20260719T132403, end_date=20260719T132506
+[2026-07-19T19:10:06.934+0545] {standard_task_runner.py:110} ERROR - Failed to execute job 29 for task row_wise_ddp_models.usad (Bash command failed. The command returned a non-zero exit code 1.; 50349)
+[2026-07-19T19:10:06.958+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-07-19T19:10:06.971+0545] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-07-19T19:10:06.972+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

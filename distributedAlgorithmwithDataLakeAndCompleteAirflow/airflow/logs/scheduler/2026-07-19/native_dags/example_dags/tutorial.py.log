@@ -1,0 +1,819 @@
+[2026-07-19T18:39:10.004+0545] {processor.py:161} INFO - Started process (PID=24071) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T18:39:10.005+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T18:39:10.005+0545] {logging_mixin.py:188} INFO - [2026-07-19T18:39:10.005+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T18:39:10.009+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T18:39:10.020+0545] {logging_mixin.py:188} INFO - [2026-07-19T18:39:10.020+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T18:39:10.030+0545] {logging_mixin.py:188} INFO - [2026-07-19T18:39:10.030+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T18:39:10.046+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T19:20:48.009+0545] {processor.py:161} INFO - Started process (PID=59828) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:20:48.012+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:20:48.013+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:20:48.013+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:20:48.017+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:20:48.030+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:20:48.030+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:20:48.040+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:20:48.040+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:20:48.054+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2026-07-19T19:21:38.009+0545] {processor.py:161} INFO - Started process (PID=60321) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:21:38.012+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:21:38.013+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:21:38.013+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:21:38.017+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:21:38.025+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:21:38.025+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:21:38.032+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:21:38.032+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:21:38.044+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2026-07-19T19:22:18.935+0545] {processor.py:161} INFO - Started process (PID=60679) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:18.938+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:22:18.939+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:18.939+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:18.943+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:18.950+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:18.950+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:22:18.958+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:18.958+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:22:18.970+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T19:22:59.730+0545] {processor.py:161} INFO - Started process (PID=61032) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:59.733+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:22:59.734+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:59.733+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:59.738+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:22:59.747+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:59.747+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:22:59.755+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:22:59.755+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:22:59.767+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2026-07-19T19:23:42.541+0545] {processor.py:161} INFO - Started process (PID=61443) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:23:42.544+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:23:42.545+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:23:42.545+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:23:42.549+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:23:42.557+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:23:42.557+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:23:42.565+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:23:42.565+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:23:42.577+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2026-07-19T19:24:24.552+0545] {processor.py:161} INFO - Started process (PID=61830) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:24:24.555+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:24:24.555+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:24:24.555+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:24:24.559+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:24:24.569+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:24:24.568+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:24:24.578+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:24:24.578+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:24:24.591+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2026-07-19T19:25:07.910+0545] {processor.py:161} INFO - Started process (PID=62301) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:07.911+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:25:07.912+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:07.912+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:07.916+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:07.924+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:07.924+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:25:07.933+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:07.932+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:25:07.945+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T19:25:47.898+0545] {processor.py:161} INFO - Started process (PID=63176) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:47.901+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:25:47.901+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:47.901+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:47.904+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:25:47.912+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:47.912+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:25:47.920+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:25:47.920+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:25:47.934+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T19:26:37.574+0545] {processor.py:161} INFO - Started process (PID=63549) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:26:37.577+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:26:37.578+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:26:37.578+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:26:37.581+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:26:37.589+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:26:37.589+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:26:37.597+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:26:37.597+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:26:37.609+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2026-07-19T19:27:17.851+0545] {processor.py:161} INFO - Started process (PID=63848) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:27:17.855+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:27:17.855+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:27:17.855+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:27:17.859+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:27:17.867+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:27:17.867+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:27:17.874+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:27:17.874+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:27:17.887+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T19:28:00.331+0545] {processor.py:161} INFO - Started process (PID=66114) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:28:00.333+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:28:00.334+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:28:00.334+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:28:00.341+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:28:00.374+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:28:00.373+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:28:00.402+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:28:00.402+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:28:00.436+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2026-07-19T19:29:01.900+0545] {processor.py:161} INFO - Started process (PID=66990) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:01.901+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:29:01.901+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:01.901+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:01.906+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:01.917+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:01.917+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:29:01.928+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:01.928+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:29:01.951+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2026-07-19T19:29:52.418+0545] {processor.py:161} INFO - Started process (PID=67539) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:52.421+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T19:29:52.422+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:52.422+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:52.425+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T19:29:52.432+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:52.432+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T19:29:52.441+0545] {logging_mixin.py:188} INFO - [2026-07-19T19:29:52.441+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T19:29:52.454+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T20:19:26.130+0545] {processor.py:161} INFO - Started process (PID=106598) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:19:26.134+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:19:26.135+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:19:26.135+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:19:26.143+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:19:26.177+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:19:26.177+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:19:26.197+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:19:26.197+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:19:26.222+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2026-07-19T20:20:18.421+0545] {processor.py:161} INFO - Started process (PID=107234) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:20:18.424+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:20:18.426+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:20:18.425+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:20:18.433+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:20:18.454+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:20:18.454+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:20:18.472+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:20:18.472+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:20:18.494+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2026-07-19T20:21:05.155+0545] {processor.py:161} INFO - Started process (PID=107736) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:05.159+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:21:05.160+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:05.159+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:05.168+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:05.191+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:05.190+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:21:05.212+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:05.212+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:21:05.236+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2026-07-19T20:21:48.473+0545] {processor.py:161} INFO - Started process (PID=108173) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:48.477+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:21:48.478+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:48.477+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:48.486+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:21:48.508+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:48.508+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:21:48.530+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:21:48.530+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:21:48.703+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.238 seconds
+[2026-07-19T20:22:43.176+0545] {processor.py:161} INFO - Started process (PID=108730) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:22:43.178+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:22:43.179+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:22:43.179+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:22:43.188+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:22:43.209+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:22:43.208+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:22:43.228+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:22:43.227+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:22:43.249+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2026-07-19T20:23:29.148+0545] {processor.py:161} INFO - Started process (PID=109196) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:23:29.151+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:23:29.153+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:23:29.152+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:23:29.161+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:23:29.180+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:23:29.180+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:23:29.198+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:23:29.197+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:23:29.219+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2026-07-19T20:24:10.898+0545] {processor.py:161} INFO - Started process (PID=109608) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:10.902+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:24:10.903+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:10.903+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:10.912+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:10.932+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:10.931+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:24:10.951+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:10.951+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:24:10.976+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2026-07-19T20:24:52.278+0545] {processor.py:161} INFO - Started process (PID=110006) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:52.282+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:24:52.283+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:52.283+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:52.291+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:24:52.313+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:52.312+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:24:52.333+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:24:52.333+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:24:52.360+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-07-19T20:25:33.551+0545] {processor.py:161} INFO - Started process (PID=110466) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:25:33.555+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:25:33.556+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:25:33.556+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:25:33.564+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:25:33.584+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:25:33.584+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:25:33.604+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:25:33.604+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:25:33.626+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.082 seconds
+[2026-07-19T20:26:19.697+0545] {processor.py:161} INFO - Started process (PID=110901) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:26:19.701+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:26:19.702+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:26:19.702+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:26:19.710+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:26:19.731+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:26:19.730+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:26:19.748+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:26:19.748+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:26:19.770+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2026-07-19T20:27:02.629+0545] {processor.py:161} INFO - Started process (PID=111376) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:02.633+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:27:02.634+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:02.633+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:02.642+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:02.665+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:02.664+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:27:02.682+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:02.681+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:27:02.703+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2026-07-19T20:27:47.879+0545] {processor.py:161} INFO - Started process (PID=111814) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:47.881+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:27:47.882+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:47.881+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:47.890+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:27:47.913+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:47.912+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:27:47.932+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:27:47.932+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:27:47.955+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2026-07-19T20:28:34.194+0545] {processor.py:161} INFO - Started process (PID=112330) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:28:34.198+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:28:34.199+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:28:34.199+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:28:34.207+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:28:34.229+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:28:34.228+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:28:34.249+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:28:34.249+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:28:34.272+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2026-07-19T20:29:18.997+0545] {processor.py:161} INFO - Started process (PID=112763) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:29:18.999+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:29:19.000+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:29:19.000+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:29:19.007+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:29:19.028+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:29:19.028+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:29:19.045+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:29:19.045+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:29:19.068+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2026-07-19T20:30:04.540+0545] {processor.py:161} INFO - Started process (PID=113243) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:04.544+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:30:04.546+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:04.545+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:04.553+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:04.576+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:04.576+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:30:04.595+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:04.595+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:30:04.617+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2026-07-19T20:30:48.953+0545] {processor.py:161} INFO - Started process (PID=113665) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:48.957+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:30:48.958+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:48.958+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:48.966+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:30:48.989+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:48.989+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:30:49.009+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:30:49.009+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:30:49.031+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2026-07-19T20:31:32.543+0545] {processor.py:161} INFO - Started process (PID=114126) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:31:32.547+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:31:32.548+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:31:32.548+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:31:32.556+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:31:32.578+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:31:32.578+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:31:32.597+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:31:32.596+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:31:32.618+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2026-07-19T20:32:16.214+0545] {processor.py:161} INFO - Started process (PID=114545) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:32:16.218+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:32:16.219+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:32:16.218+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:32:16.227+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:32:16.249+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:32:16.249+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:32:16.266+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:32:16.266+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:32:16.289+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2026-07-19T20:33:02.449+0545] {processor.py:161} INFO - Started process (PID=115049) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:02.453+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:33:02.454+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:02.454+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:02.462+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:02.485+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:02.484+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:33:02.505+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:02.505+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:33:02.528+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2026-07-19T20:33:48.692+0545] {processor.py:161} INFO - Started process (PID=115484) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:48.696+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:33:48.697+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:48.696+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:48.705+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:33:48.725+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:48.725+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:33:48.746+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:33:48.745+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:33:48.767+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.082 seconds
+[2026-07-19T20:34:31.616+0545] {processor.py:161} INFO - Started process (PID=115954) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:34:31.620+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:34:31.621+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:34:31.621+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:34:31.629+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:34:31.652+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:34:31.651+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:34:31.679+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:34:31.678+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:34:31.706+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.098 seconds
+[2026-07-19T20:35:15.514+0545] {processor.py:161} INFO - Started process (PID=116406) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:35:15.518+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:35:15.519+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:35:15.518+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:35:15.527+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:35:15.549+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:35:15.549+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:35:15.572+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:35:15.572+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:35:15.596+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-07-19T20:42:08.506+0545] {processor.py:161} INFO - Started process (PID=117175) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:42:08.510+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:42:08.511+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:42:08.510+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:42:08.516+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:42:08.524+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:42:08.524+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:42:08.532+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:42:08.532+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:42:08.544+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T20:43:07.031+0545] {processor.py:161} INFO - Started process (PID=118041) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:07.034+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:43:07.035+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:07.034+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:07.038+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:07.046+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:07.046+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:43:07.054+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:07.054+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:43:07.066+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2026-07-19T20:43:46.309+0545] {processor.py:161} INFO - Started process (PID=118403) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:46.313+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:43:46.314+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:46.313+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:46.318+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:43:46.326+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:46.326+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:43:46.335+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:43:46.334+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:43:46.349+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2026-07-19T20:44:26.730+0545] {processor.py:161} INFO - Started process (PID=118791) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:44:26.731+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:44:26.732+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:44:26.732+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:44:26.735+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:44:26.742+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:44:26.742+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:44:26.750+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:44:26.750+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:44:26.762+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.035 seconds
+[2026-07-19T20:45:08.404+0545] {processor.py:161} INFO - Started process (PID=119218) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:08.407+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:45:08.407+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:08.407+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:08.411+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:08.420+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:08.419+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:45:08.428+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:08.427+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:45:08.440+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2026-07-19T20:45:49.024+0545] {processor.py:161} INFO - Started process (PID=119589) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:49.027+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:45:49.028+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:49.027+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:49.032+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:45:49.041+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:49.041+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:45:49.049+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:45:49.049+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:45:49.062+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2026-07-19T20:46:30.684+0545] {processor.py:161} INFO - Started process (PID=119972) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:46:30.687+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:46:30.688+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:46:30.688+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:46:30.691+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:46:30.699+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:46:30.698+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:46:30.706+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:46:30.706+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:46:30.719+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T20:47:09.042+0545] {processor.py:161} INFO - Started process (PID=120463) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:09.043+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:47:09.044+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:09.044+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:09.049+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:09.058+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:09.057+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:47:09.069+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:09.069+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:47:09.083+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T20:47:49.255+0545] {processor.py:161} INFO - Started process (PID=120882) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:49.258+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:47:49.259+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:49.259+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:49.263+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:47:49.271+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:49.270+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:47:49.279+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:47:49.279+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:47:49.291+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2026-07-19T20:48:31.274+0545] {processor.py:161} INFO - Started process (PID=121242) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:48:31.277+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:48:31.277+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:48:31.277+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:48:31.280+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:48:31.289+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:48:31.289+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:48:31.297+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:48:31.297+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:48:31.310+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T20:49:11.340+0545] {processor.py:161} INFO - Started process (PID=121659) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:11.343+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:49:11.344+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:11.344+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:11.348+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:11.357+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:11.357+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:49:11.366+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:11.366+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:49:11.379+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T20:49:50.750+0545] {processor.py:161} INFO - Started process (PID=122053) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:50.754+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:49:50.755+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:50.754+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:50.760+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:49:50.769+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:50.769+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:49:50.776+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:49:50.776+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:49:50.789+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2026-07-19T20:50:41.073+0545] {processor.py:161} INFO - Started process (PID=122585) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:50:41.074+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:50:41.075+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:50:41.075+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:50:41.079+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:50:41.087+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:50:41.087+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:50:41.095+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:50:41.095+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:50:41.107+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T20:51:20.665+0545] {processor.py:161} INFO - Started process (PID=122948) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:51:20.668+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:51:20.669+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:51:20.669+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:51:20.674+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:51:20.682+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:51:20.682+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:51:20.690+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:51:20.690+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:51:20.702+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2026-07-19T20:52:02.540+0545] {processor.py:161} INFO - Started process (PID=123356) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:02.543+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:52:02.544+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:02.544+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:02.549+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:02.558+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:02.558+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:52:02.566+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:02.566+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:52:02.580+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2026-07-19T20:52:45.019+0545] {processor.py:161} INFO - Started process (PID=123784) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:45.020+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:52:45.021+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:45.021+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:45.025+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:52:45.033+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:45.033+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:52:45.041+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:52:45.040+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:52:45.052+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T20:53:26.010+0545] {processor.py:161} INFO - Started process (PID=124169) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:53:26.012+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:53:26.013+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:53:26.013+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:53:26.016+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:53:26.025+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:53:26.025+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:53:26.033+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:53:26.033+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:53:26.047+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2026-07-19T20:54:09.411+0545] {processor.py:161} INFO - Started process (PID=124620) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:09.414+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:54:09.415+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:09.415+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:09.419+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:09.427+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:09.426+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:54:09.435+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:09.434+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:54:09.447+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2026-07-19T20:54:50.502+0545] {processor.py:161} INFO - Started process (PID=124977) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:50.505+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:54:50.506+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:50.506+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:50.510+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:54:50.517+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:50.517+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:54:50.525+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:54:50.525+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:54:50.537+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2026-07-19T20:55:30.462+0545] {processor.py:161} INFO - Started process (PID=125385) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:55:30.463+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:55:30.464+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:55:30.463+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:55:30.467+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:55:30.475+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:55:30.475+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:55:30.484+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:55:30.483+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:55:30.496+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.036 seconds
+[2026-07-19T20:56:10.568+0545] {processor.py:161} INFO - Started process (PID=125821) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:10.571+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:56:10.572+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:10.571+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:10.575+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:10.586+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:10.585+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:56:10.595+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:10.595+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:56:10.608+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T20:56:54.147+0545] {processor.py:161} INFO - Started process (PID=126215) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:54.150+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:56:54.151+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:54.151+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:54.154+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:56:54.162+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:54.162+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:56:54.170+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:56:54.170+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:56:54.183+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2026-07-19T20:57:32.878+0545] {processor.py:161} INFO - Started process (PID=126579) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:57:32.881+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:57:32.882+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:57:32.881+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:57:32.887+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:57:32.899+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:57:32.899+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:57:32.907+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:57:32.906+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:57:32.919+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2026-07-19T20:58:11.139+0545] {processor.py:161} INFO - Started process (PID=127005) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:11.142+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:58:11.142+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:11.142+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:11.145+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:11.156+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:11.156+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:58:11.166+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:11.166+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:58:11.182+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2026-07-19T20:58:48.841+0545] {processor.py:161} INFO - Started process (PID=127360) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:48.844+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:58:48.844+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:48.844+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:48.848+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:58:48.857+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:48.857+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:58:48.866+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:58:48.866+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:58:48.880+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2026-07-19T20:59:31.326+0545] {processor.py:161} INFO - Started process (PID=127764) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:59:31.329+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T20:59:31.330+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:59:31.330+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:59:31.333+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T20:59:31.341+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:59:31.341+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T20:59:31.349+0545] {logging_mixin.py:188} INFO - [2026-07-19T20:59:31.349+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T20:59:31.361+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.039 seconds
+[2026-07-19T21:00:14.352+0545] {processor.py:161} INFO - Started process (PID=128257) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:14.355+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:00:14.355+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:14.355+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:14.358+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:14.366+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:14.366+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:00:14.374+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:14.373+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:00:14.636+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.287 seconds
+[2026-07-19T21:00:55.574+0545] {processor.py:161} INFO - Started process (PID=128635) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:55.578+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:00:55.578+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:55.578+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:55.582+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:00:55.590+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:55.590+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:00:55.597+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:00:55.597+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:00:55.611+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2026-07-19T21:01:39.616+0545] {processor.py:161} INFO - Started process (PID=129247) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:01:39.619+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:01:39.620+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:01:39.619+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:01:39.623+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:01:39.633+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:01:39.633+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:01:39.642+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:01:39.642+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:01:39.657+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2026-07-19T21:02:22.976+0545] {processor.py:161} INFO - Started process (PID=129679) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:02:22.980+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:02:22.980+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:02:22.980+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:02:22.984+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:02:22.993+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:02:22.993+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:02:23.003+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:02:23.003+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:02:23.017+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2026-07-19T21:03:06.064+0545] {processor.py:161} INFO - Started process (PID=130171) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:06.067+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:03:06.068+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:06.067+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:06.071+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:06.079+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:06.079+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:03:06.087+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:06.087+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:03:06.102+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2026-07-19T21:03:47.036+0545] {processor.py:161} INFO - Started process (PID=130627) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:47.039+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:03:47.040+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:47.040+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:47.043+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:03:47.051+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:47.050+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:03:47.058+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:03:47.058+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:03:47.071+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T21:04:27.718+0545] {processor.py:161} INFO - Started process (PID=131001) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:04:27.721+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:04:27.722+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:04:27.722+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:04:27.725+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:04:27.732+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:04:27.732+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:04:27.740+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:04:27.740+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:04:27.753+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2026-07-19T21:05:09.660+0545] {processor.py:161} INFO - Started process (PID=131460) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:09.664+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:05:09.666+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:09.665+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:09.673+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:09.697+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:09.697+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:05:09.720+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:09.720+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:05:09.747+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-07-19T21:05:51.011+0545] {processor.py:161} INFO - Started process (PID=131853) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:51.016+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:05:51.017+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:51.017+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:51.027+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:05:51.051+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:51.050+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:05:51.070+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:05:51.069+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:05:51.100+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.096 seconds
+[2026-07-19T21:06:40.478+0545] {processor.py:161} INFO - Started process (PID=132358) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:06:40.482+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:06:40.483+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:06:40.483+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:06:40.492+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:06:40.517+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:06:40.517+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:06:40.537+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:06:40.536+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:06:40.567+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.098 seconds
+[2026-07-19T21:07:29.581+0545] {processor.py:161} INFO - Started process (PID=132790) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:07:29.585+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:07:29.587+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:07:29.586+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:07:29.596+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:07:29.619+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:07:29.618+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:07:29.638+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:07:29.637+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:07:29.671+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2026-07-19T21:08:18.237+0545] {processor.py:161} INFO - Started process (PID=133265) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:08:18.240+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:08:18.241+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:08:18.241+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:08:18.248+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:08:18.266+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:08:18.265+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:08:18.284+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:08:18.283+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:08:18.308+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2026-07-19T21:09:00.769+0545] {processor.py:161} INFO - Started process (PID=133640) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:00.772+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:09:00.774+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:00.773+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:00.783+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:00.807+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:00.807+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:09:00.828+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:00.828+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:09:00.852+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-07-19T21:09:45.122+0545] {processor.py:161} INFO - Started process (PID=134110) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:45.125+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:09:45.126+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:45.126+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:45.132+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:09:45.152+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:45.151+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:09:45.180+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:09:45.179+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:09:45.217+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.103 seconds
+[2026-07-19T21:10:32.925+0545] {processor.py:161} INFO - Started process (PID=134536) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:10:32.928+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:10:32.930+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:10:32.929+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:10:32.936+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:10:32.957+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:10:32.956+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:10:32.979+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:10:32.979+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:10:33.014+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2026-07-19T21:11:23.161+0545] {processor.py:161} INFO - Started process (PID=135037) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:11:23.165+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:11:23.166+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:11:23.166+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:11:23.175+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:11:23.194+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:11:23.194+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:11:23.212+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:11:23.212+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:11:23.236+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2026-07-19T21:12:10.530+0545] {processor.py:161} INFO - Started process (PID=135514) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:10.534+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:12:10.535+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:10.535+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:10.544+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:10.570+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:10.570+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:12:10.592+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:10.592+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:12:10.616+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-07-19T21:12:56.131+0545] {processor.py:161} INFO - Started process (PID=135977) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:56.134+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:12:56.135+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:56.135+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:56.141+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:12:56.159+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:56.158+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:12:56.179+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:12:56.179+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:12:56.208+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2026-07-19T21:13:43.551+0545] {processor.py:161} INFO - Started process (PID=136442) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:13:43.555+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:13:43.556+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:13:43.556+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:13:43.564+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:13:43.586+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:13:43.586+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:13:43.605+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:13:43.604+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:13:43.629+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2026-07-19T21:14:28.569+0545] {processor.py:161} INFO - Started process (PID=136832) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:14:28.573+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:14:28.574+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:14:28.573+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:14:28.580+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:14:28.598+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:14:28.598+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:14:28.618+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:14:28.618+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:14:28.643+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2026-07-19T21:15:13.333+0545] {processor.py:161} INFO - Started process (PID=137296) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:13.337+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:15:13.338+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:13.337+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:13.343+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:13.358+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:13.358+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:15:13.376+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:13.376+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:15:13.401+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2026-07-19T21:15:54.878+0545] {processor.py:161} INFO - Started process (PID=137671) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:54.881+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:15:54.882+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:54.881+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:54.887+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:15:54.903+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:54.902+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:15:54.918+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:15:54.918+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:15:54.941+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2026-07-19T21:16:41.828+0545] {processor.py:161} INFO - Started process (PID=138134) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:16:41.829+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:16:41.830+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:16:41.830+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:16:41.836+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:16:41.851+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:16:41.851+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:16:41.869+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:16:41.869+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:16:41.893+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2026-07-19T21:17:24.170+0545] {processor.py:161} INFO - Started process (PID=138507) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:17:24.173+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:17:24.174+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:17:24.174+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:17:24.179+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:17:24.193+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:17:24.192+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:17:24.209+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:17:24.209+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:17:24.230+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2026-07-19T21:18:05.368+0545] {processor.py:161} INFO - Started process (PID=138859) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:05.370+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:18:05.371+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:05.370+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:05.375+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:05.389+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:05.389+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:18:05.403+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:05.403+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:18:05.422+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2026-07-19T21:18:46.503+0545] {processor.py:161} INFO - Started process (PID=139280) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:46.506+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:18:46.507+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:46.507+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:46.512+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:18:46.525+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:46.525+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:18:46.540+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:18:46.540+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:18:46.563+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2026-07-19T21:19:29.062+0545] {processor.py:161} INFO - Started process (PID=139662) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:19:29.065+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:19:29.067+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:19:29.066+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:19:29.074+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:19:29.088+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:19:29.088+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:19:29.102+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:19:29.102+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:19:29.123+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.068 seconds
+[2026-07-19T21:20:13.008+0545] {processor.py:161} INFO - Started process (PID=140124) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:20:13.012+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:20:13.013+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:20:13.012+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:20:13.021+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:20:13.045+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:20:13.045+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:20:13.066+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:20:13.065+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:20:13.089+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-07-19T21:21:03.101+0545] {processor.py:161} INFO - Started process (PID=140570) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:03.102+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:21:03.104+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:03.103+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:03.113+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:03.134+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:03.134+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:21:03.152+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:03.151+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:21:03.180+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2026-07-19T21:21:47.190+0545] {processor.py:161} INFO - Started process (PID=141026) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:47.194+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:21:47.196+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:47.195+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:47.206+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:21:47.231+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:47.231+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:21:47.255+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:21:47.255+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:21:47.286+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2026-07-19T21:22:32.273+0545] {processor.py:161} INFO - Started process (PID=141426) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:22:32.276+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:22:32.278+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:22:32.277+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:22:32.286+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:22:32.312+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:22:32.311+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:22:32.331+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:22:32.330+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:22:32.358+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-07-19T21:23:20.811+0545] {processor.py:161} INFO - Started process (PID=141906) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:23:20.816+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:23:20.817+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:23:20.817+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:23:20.827+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:23:20.852+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:23:20.852+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:23:20.873+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:23:20.872+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:23:20.899+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.098 seconds
+[2026-07-19T21:24:07.647+0545] {processor.py:161} INFO - Started process (PID=142322) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:07.649+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:24:07.651+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:07.650+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:07.659+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:07.683+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:07.683+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:24:07.702+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:07.702+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:24:07.727+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2026-07-19T21:24:59.412+0545] {processor.py:161} INFO - Started process (PID=142849) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:59.416+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:24:59.418+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:59.417+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:59.427+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:24:59.450+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:59.450+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:24:59.478+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:24:59.477+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:24:59.515+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2026-07-19T21:25:55.254+0545] {processor.py:161} INFO - Started process (PID=143389) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:25:55.257+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:25:55.259+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:25:55.258+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:25:55.268+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:25:55.291+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:25:55.291+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:25:55.310+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:25:55.310+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:25:55.335+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-07-19T21:26:48.244+0545] {processor.py:161} INFO - Started process (PID=143934) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:26:48.247+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:26:48.249+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:26:48.248+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:26:48.259+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:26:48.284+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:26:48.283+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:26:48.304+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:26:48.304+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:26:48.329+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2026-07-19T21:27:38.768+0545] {processor.py:161} INFO - Started process (PID=144395) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:27:38.772+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:27:38.774+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:27:38.773+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:27:38.782+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:27:38.801+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:27:38.801+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:27:38.819+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:27:38.819+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:27:38.844+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2026-07-19T21:28:24.711+0545] {processor.py:161} INFO - Started process (PID=144898) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:28:24.715+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:28:24.716+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:28:24.715+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:28:24.725+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:28:24.749+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:28:24.749+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:28:24.769+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:28:24.769+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:28:24.797+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-07-19T21:29:15.904+0545] {processor.py:161} INFO - Started process (PID=145417) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:29:15.908+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:29:15.909+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:29:15.909+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:29:15.919+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:29:15.947+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:29:15.947+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:29:15.967+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:29:15.966+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:29:15.997+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.103 seconds
+[2026-07-19T21:30:04.444+0545] {processor.py:161} INFO - Started process (PID=145862) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:04.448+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:30:04.449+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:04.448+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:04.458+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:04.484+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:04.484+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:30:04.504+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:04.504+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:30:04.532+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2026-07-19T21:30:54.073+0545] {processor.py:161} INFO - Started process (PID=146385) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:54.077+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:30:54.079+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:54.078+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:54.089+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:30:54.111+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:54.111+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:30:54.127+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:30:54.127+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:30:54.155+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-07-19T21:31:44.738+0545] {processor.py:161} INFO - Started process (PID=146898) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:31:44.742+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:31:44.744+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:31:44.743+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:31:44.752+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:31:44.775+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:31:44.775+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:31:44.794+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:31:44.794+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:31:44.822+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-07-19T21:32:34.691+0545] {processor.py:161} INFO - Started process (PID=147347) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:32:34.695+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:32:34.697+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:32:34.696+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:32:34.706+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:32:34.733+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:32:34.732+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:32:34.754+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:32:34.754+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:32:34.781+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.101 seconds
+[2026-07-19T21:33:25.720+0545] {processor.py:161} INFO - Started process (PID=147866) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:33:25.724+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:33:25.726+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:33:25.725+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:33:25.736+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:33:25.765+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:33:25.764+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:33:25.786+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:33:25.786+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:33:25.811+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.101 seconds
+[2026-07-19T21:34:15.218+0545] {processor.py:161} INFO - Started process (PID=148380) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:34:15.222+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:34:15.224+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:34:15.223+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:34:15.233+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:34:15.253+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:34:15.252+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:34:15.273+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:34:15.272+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:34:15.301+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-07-19T21:35:03.601+0545] {processor.py:161} INFO - Started process (PID=148815) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:03.605+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:35:03.607+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:03.606+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:03.618+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:03.638+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:03.638+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:35:03.656+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:03.656+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:35:03.680+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-07-19T21:35:51.833+0545] {processor.py:161} INFO - Started process (PID=149316) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:51.837+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:35:51.838+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:51.838+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:51.847+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:35:51.870+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:51.870+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:35:51.893+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:35:51.893+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:35:51.922+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2026-07-19T21:36:42.492+0545] {processor.py:161} INFO - Started process (PID=149782) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:36:42.495+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:36:42.497+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:36:42.496+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:36:42.503+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:36:42.522+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:36:42.522+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:36:42.540+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:36:42.540+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:36:42.576+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2026-07-19T21:37:29.055+0545] {processor.py:161} INFO - Started process (PID=150262) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:37:29.059+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:37:29.060+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:37:29.059+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:37:29.069+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:37:29.093+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:37:29.092+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:37:29.112+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:37:29.112+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:37:29.135+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2026-07-19T21:38:15.170+0545] {processor.py:161} INFO - Started process (PID=150717) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:38:15.174+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:38:15.176+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:38:15.175+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:38:15.184+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:38:15.210+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:38:15.209+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:38:15.230+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:38:15.229+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:38:15.255+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2026-07-19T21:39:00.906+0545] {processor.py:161} INFO - Started process (PID=151128) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:00.909+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:39:00.911+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:00.910+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:00.918+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:00.939+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:00.938+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:39:00.953+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:00.953+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:39:00.972+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2026-07-19T21:39:43.586+0545] {processor.py:161} INFO - Started process (PID=151531) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:43.589+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:39:43.591+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:43.590+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:43.600+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:39:43.622+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:43.622+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:39:43.642+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:39:43.642+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:39:43.666+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2026-07-19T21:40:29.452+0545] {processor.py:161} INFO - Started process (PID=152019) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:40:29.456+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:40:29.457+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:40:29.457+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:40:29.464+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:40:29.485+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:40:29.485+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:40:29.504+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:40:29.504+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:40:29.526+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2026-07-19T21:41:15.081+0545] {processor.py:161} INFO - Started process (PID=152467) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:41:15.085+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:41:15.087+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:41:15.086+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:41:15.095+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:41:15.119+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:41:15.119+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:41:15.140+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:41:15.140+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:41:15.165+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds
+[2026-07-19T21:42:00.622+0545] {processor.py:161} INFO - Started process (PID=153085) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:42:00.626+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-07-19T21:42:00.628+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:42:00.627+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:42:00.636+0545] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-07-19T21:42:00.664+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:42:00.664+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-19T21:42:00.684+0545] {logging_mixin.py:188} INFO - [2026-07-19T21:42:00.684+0545] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2026-07-18 00:00:00+00:00, run_after=2026-07-19 00:00:00+00:00
+[2026-07-19T21:42:00.715+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.102 seconds

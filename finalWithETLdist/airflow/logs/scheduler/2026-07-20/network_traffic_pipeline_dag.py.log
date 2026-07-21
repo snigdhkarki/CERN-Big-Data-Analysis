@@ -1,0 +1,1008 @@
+[2026-07-20T08:07:31.359+0545] {processor.py:161} INFO - Started process (PID=29480) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:07:31.360+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T08:07:31.362+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:07:31.361+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:07:31.386+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:07:31.493+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:07:31.493+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T08:07:31.502+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:07:31.502+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T08:07:31.528+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.174 seconds
+[2026-07-20T08:11:25.726+0545] {processor.py:161} INFO - Started process (PID=34076) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:11:25.728+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T08:11:25.729+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:11:25.728+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:11:25.749+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:11:25.779+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:11:25.778+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T08:11:25.789+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:11:25.789+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T08:11:25.810+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.089 seconds
+[2026-07-20T08:15:38.836+0545] {processor.py:161} INFO - Started process (PID=37041) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:15:38.838+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T08:15:38.839+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:15:38.839+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:15:38.872+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:15:38.910+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:15:38.910+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T08:15:38.922+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:15:38.921+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T08:15:38.947+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.120 seconds
+[2026-07-20T08:49:34.411+0545] {processor.py:161} INFO - Started process (PID=60250) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:49:34.413+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T08:49:34.414+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:49:34.413+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:49:34.435+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T08:49:34.464+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:49:34.463+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T08:49:34.474+0545] {logging_mixin.py:188} INFO - [2026-07-20T08:49:34.474+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T08:49:34.495+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.090 seconds
+[2026-07-20T20:42:17.672+0545] {processor.py:161} INFO - Started process (PID=78213) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:42:17.673+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:42:17.673+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:42:17.673+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:42:17.683+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:42:17.696+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:42:17.696+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:42:17.702+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:42:17.702+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:42:17.714+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T20:47:07.136+0545] {processor.py:161} INFO - Started process (PID=82313) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:47:07.137+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:47:07.138+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:47:07.137+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:47:07.147+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:47:07.160+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:47:07.159+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:47:07.165+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:47:07.164+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:47:07.176+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T20:50:17.734+0545] {processor.py:161} INFO - Started process (PID=85124) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:50:17.735+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:50:17.735+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:17.735+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:50:17.745+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:50:17.758+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:17.758+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:50:17.764+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:17.764+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:50:17.777+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T20:51:08.138+0545] {processor.py:161} INFO - Started process (PID=85554) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:08.141+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:51:08.142+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:08.142+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:08.151+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:08.159+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:08.159+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:51:08.164+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:08.164+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:51:08.176+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.041 seconds
+[2026-07-20T20:51:50.232+0545] {processor.py:161} INFO - Started process (PID=85994) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:50.235+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:51:50.236+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:50.235+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:50.244+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:51:50.252+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:50.252+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:51:50.257+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:50.257+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:51:50.269+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.042 seconds
+[2026-07-20T20:52:31.388+0545] {processor.py:161} INFO - Started process (PID=86368) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:52:31.391+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:52:31.392+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:31.392+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:52:31.403+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:52:31.412+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:31.411+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:52:31.417+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:31.416+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:52:31.430+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T20:53:13.625+0545] {processor.py:161} INFO - Started process (PID=86746) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:13.628+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:53:13.629+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:13.629+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:13.638+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:13.647+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:13.647+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:53:13.652+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:13.652+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:53:13.666+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T20:53:53.645+0545] {processor.py:161} INFO - Started process (PID=87191) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:53.648+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:53:53.649+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:53.649+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:53.658+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:53:53.667+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:53.667+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:53:53.672+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:53.672+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:53:53.766+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.125 seconds
+[2026-07-20T20:54:39.594+0545] {processor.py:161} INFO - Started process (PID=87579) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:54:39.597+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:54:39.598+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:39.597+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:54:39.608+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:54:39.616+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:39.616+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:54:39.622+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:39.622+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:54:39.636+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T20:55:25.452+0545] {processor.py:161} INFO - Started process (PID=88031) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:55:25.453+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:55:25.453+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:25.453+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:55:25.463+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:55:25.472+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:25.471+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:55:25.477+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:25.477+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:55:25.492+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T20:56:08.693+0545] {processor.py:161} INFO - Started process (PID=88430) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:08.696+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:56:08.697+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:08.697+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:08.708+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:08.716+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:08.716+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:56:08.722+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:08.722+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:56:08.736+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T20:56:47.989+0545] {processor.py:161} INFO - Started process (PID=88850) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:47.992+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:56:47.992+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:47.992+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:48.002+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:56:48.011+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:48.011+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:56:48.017+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:48.016+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:56:48.030+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T20:57:32.017+0545] {processor.py:161} INFO - Started process (PID=89248) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:57:32.020+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:57:32.020+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:32.020+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:57:32.030+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:57:32.040+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:32.039+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:57:32.046+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:32.045+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:57:32.060+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T20:58:15.610+0545] {processor.py:161} INFO - Started process (PID=89672) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:15.613+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:58:15.614+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:15.613+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:15.624+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:15.633+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:15.633+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:58:15.638+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:15.638+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:58:15.652+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T20:58:57.227+0545] {processor.py:161} INFO - Started process (PID=90109) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:57.230+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:58:57.231+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:57.230+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:57.240+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:58:57.248+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:57.248+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:58:57.252+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:57.252+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:58:57.265+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.042 seconds
+[2026-07-20T20:59:38.493+0545] {processor.py:161} INFO - Started process (PID=90485) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:59:38.496+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T20:59:38.497+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:38.497+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:59:38.507+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T20:59:38.516+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:38.515+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:59:38.521+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:38.521+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T20:59:38.535+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T21:00:19.054+0545] {processor.py:161} INFO - Started process (PID=90898) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:19.057+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:00:19.058+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:19.057+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:19.068+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:19.076+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:19.076+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:00:19.082+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:19.082+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:00:19.096+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T21:00:59.952+0545] {processor.py:161} INFO - Started process (PID=91263) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:59.955+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:00:59.956+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:59.956+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:59.965+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:00:59.974+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:59.974+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:00:59.980+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:59.979+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:00:59.993+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T21:01:40.855+0545] {processor.py:161} INFO - Started process (PID=91638) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:01:40.857+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:01:40.858+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:40.858+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:01:40.868+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:01:40.877+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:40.877+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:01:40.882+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:40.882+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:01:40.897+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T21:02:22.648+0545] {processor.py:161} INFO - Started process (PID=92079) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:02:22.651+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:02:22.652+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:22.651+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:02:22.662+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:02:22.671+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:22.670+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:02:22.676+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:22.675+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:02:22.689+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T21:03:05.502+0545] {processor.py:161} INFO - Started process (PID=92452) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:05.505+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:03:05.506+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:05.506+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:05.516+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:05.525+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:05.525+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:03:05.530+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:05.530+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:03:05.547+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.049 seconds
+[2026-07-20T21:03:46.666+0545] {processor.py:161} INFO - Started process (PID=92865) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:46.669+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:03:46.669+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:46.669+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:46.680+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:03:46.689+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:46.689+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:03:46.695+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:46.695+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:03:46.710+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T21:04:29.137+0545] {processor.py:161} INFO - Started process (PID=93283) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:04:29.140+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:04:29.141+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:29.141+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:04:29.150+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:04:29.159+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:29.159+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:04:29.164+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:29.164+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:04:29.176+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T21:05:14.410+0545] {processor.py:161} INFO - Started process (PID=93703) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:14.413+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:05:14.414+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:14.414+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:14.423+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:14.433+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:14.432+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:05:14.438+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:14.438+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:05:14.452+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T21:05:54.527+0545] {processor.py:161} INFO - Started process (PID=94124) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:54.530+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:05:54.531+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:54.530+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:54.541+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:05:54.549+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:54.549+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:05:54.555+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:54.555+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:05:54.569+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T21:06:34.240+0545] {processor.py:161} INFO - Started process (PID=94478) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:06:34.243+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:06:34.244+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:34.243+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:06:34.253+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:06:34.261+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:34.261+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:06:34.266+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:34.265+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:06:34.278+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.042 seconds
+[2026-07-20T21:07:15.091+0545] {processor.py:161} INFO - Started process (PID=94866) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:15.093+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:07:15.094+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:15.094+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:15.102+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:15.110+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:15.110+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:07:15.115+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:15.115+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:07:15.127+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.039 seconds
+[2026-07-20T21:07:58.119+0545] {processor.py:161} INFO - Started process (PID=95327) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:58.122+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:07:58.122+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:58.122+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:58.131+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:07:58.139+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:58.139+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:07:58.143+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:58.143+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:07:58.157+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.041 seconds
+[2026-07-20T21:08:39.261+0545] {processor.py:161} INFO - Started process (PID=95699) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:08:39.264+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:08:39.265+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:39.264+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:08:39.273+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:08:39.281+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:39.280+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:08:39.285+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:39.285+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:08:39.298+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.039 seconds
+[2026-07-20T21:09:22.606+0545] {processor.py:161} INFO - Started process (PID=96169) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:09:22.609+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:09:22.610+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:22.609+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:09:22.619+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:09:22.627+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:22.627+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:09:22.632+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:22.632+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:09:22.644+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T21:10:02.805+0545] {processor.py:161} INFO - Started process (PID=96538) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:02.808+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:10:02.809+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:02.809+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:02.819+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:02.826+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:02.826+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:10:02.832+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:02.831+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:10:02.845+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T21:10:42.172+0545] {processor.py:161} INFO - Started process (PID=96894) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:42.175+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:10:42.176+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:42.176+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:42.187+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:10:42.195+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:42.195+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:10:42.199+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:42.199+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:10:42.211+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T21:11:21.501+0545] {processor.py:161} INFO - Started process (PID=97335) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:21.504+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:11:21.505+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:21.504+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:21.514+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:21.522+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:21.522+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:11:21.527+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:21.527+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:11:21.539+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.042 seconds
+[2026-07-20T21:11:58.625+0545] {processor.py:161} INFO - Started process (PID=97676) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:58.626+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:11:58.627+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:58.626+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:58.637+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:11:58.645+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:58.645+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:11:58.650+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:58.650+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:11:58.662+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.042 seconds
+[2026-07-20T21:12:41.520+0545] {processor.py:161} INFO - Started process (PID=98052) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:12:41.521+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:12:41.521+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:41.521+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:12:41.529+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:12:41.537+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:41.537+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:12:41.542+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:41.542+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:12:41.554+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.038 seconds
+[2026-07-20T21:13:22.823+0545] {processor.py:161} INFO - Started process (PID=98493) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:13:22.826+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:13:22.826+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:22.826+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:13:22.836+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:13:22.845+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:22.844+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:13:22.850+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:22.849+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:13:22.862+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.041 seconds
+[2026-07-20T21:24:51.076+0545] {processor.py:161} INFO - Started process (PID=99203) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:24:51.078+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T21:24:51.079+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:51.078+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:24:51.100+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T21:24:51.119+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:51.119+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:24:51.129+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:51.129+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T21:24:51.150+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.081 seconds
+[2026-07-20T11:28:09.963+0545] {processor.py:161} INFO - Started process (PID=23886) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:28:09.964+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:28:09.966+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:28:09.966+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:28:09.986+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:28:10.017+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:28:10.016+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:28:10.028+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:28:10.028+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:28:10.050+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.092 seconds
+[2026-07-20T11:31:29.255+0545] {processor.py:161} INFO - Started process (PID=27954) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:31:29.257+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:31:29.257+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:31:29.257+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:31:29.277+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:31:29.305+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:31:29.305+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:31:29.317+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:31:29.316+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:31:29.340+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.090 seconds
+[2026-07-20T11:32:26.295+0545] {processor.py:161} INFO - Started process (PID=28530) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:32:26.299+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:32:26.301+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:26.300+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:32:26.327+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:32:26.351+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:26.351+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:32:26.362+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:26.362+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:32:26.388+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.102 seconds
+[2026-07-20T11:33:18.124+0545] {processor.py:161} INFO - Started process (PID=29068) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:33:18.128+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:33:18.130+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:18.129+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:33:18.158+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:33:18.180+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:18.179+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:33:18.191+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:18.191+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:33:18.217+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.103 seconds
+[2026-07-20T11:35:53.891+0545] {processor.py:161} INFO - Started process (PID=30815) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:35:53.893+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:35:53.895+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:35:53.894+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:35:53.924+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:35:53.958+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:35:53.958+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:35:53.974+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:35:53.973+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:35:53.998+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.116 seconds
+[2026-07-20T11:36:49.311+0545] {processor.py:161} INFO - Started process (PID=31393) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:36:49.315+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:36:49.317+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:49.316+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:36:49.351+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:36:49.378+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:49.378+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:36:49.398+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:49.398+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:36:49.430+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.130 seconds
+[2026-07-20T11:37:35.929+0545] {processor.py:161} INFO - Started process (PID=32139) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:37:35.933+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:37:35.934+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:35.934+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:37:35.962+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:37:35.988+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:35.988+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:37:35.999+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:35.999+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:37:36.026+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.105 seconds
+[2026-07-20T11:38:21.216+0545] {processor.py:161} INFO - Started process (PID=32571) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:38:21.220+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:38:21.222+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:21.221+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:38:21.248+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:38:21.270+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:21.270+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:38:21.281+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:21.281+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:38:21.306+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.099 seconds
+[2026-07-20T11:39:11.488+0545] {processor.py:161} INFO - Started process (PID=33077) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:39:11.492+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:39:11.494+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:11.493+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:39:11.521+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:39:11.544+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:11.544+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:39:11.556+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:11.556+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:39:11.578+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.098 seconds
+[2026-07-20T11:40:01.607+0545] {processor.py:161} INFO - Started process (PID=33535) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:01.612+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:40:01.613+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:01.613+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:01.641+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:01.663+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:01.663+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:40:01.676+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:01.675+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:40:01.702+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.103 seconds
+[2026-07-20T11:40:50.113+0545] {processor.py:161} INFO - Started process (PID=34068) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:50.116+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:40:50.118+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:50.117+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:50.146+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:40:50.168+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:50.168+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:40:50.180+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:50.180+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:40:50.208+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.105 seconds
+[2026-07-20T11:41:38.939+0545] {processor.py:161} INFO - Started process (PID=34566) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:41:38.943+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:41:38.944+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:38.944+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:41:38.972+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:41:38.994+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:38.994+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:41:39.007+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:39.007+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:41:39.032+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.102 seconds
+[2026-07-20T11:42:25.433+0545] {processor.py:161} INFO - Started process (PID=35001) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:42:25.437+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:42:25.439+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:25.439+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:42:25.465+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:42:25.485+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:25.484+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:42:25.496+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:25.496+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:42:25.522+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.097 seconds
+[2026-07-20T11:43:10.918+0545] {processor.py:161} INFO - Started process (PID=35491) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:10.921+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:43:10.924+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.923+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:10.951+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:10.976+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.975+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:43:10.986+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.986+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:43:11.012+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.103 seconds
+[2026-07-20T11:43:56.160+0545] {processor.py:161} INFO - Started process (PID=35908) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:56.164+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:43:56.165+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:56.165+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:56.192+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:43:56.211+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:56.210+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:43:56.221+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:56.221+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:43:56.253+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.103 seconds
+[2026-07-20T11:44:45.135+0545] {processor.py:161} INFO - Started process (PID=36425) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:44:45.137+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:44:45.139+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:45.138+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:44:45.161+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:44:45.181+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:45.180+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:44:45.194+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:45.194+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:44:45.219+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.090 seconds
+[2026-07-20T11:45:37.779+0545] {processor.py:161} INFO - Started process (PID=37009) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:45:37.782+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:45:37.783+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:37.783+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:45:37.805+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:45:37.826+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:37.825+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:45:37.840+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:37.839+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:45:37.862+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.092 seconds
+[2026-07-20T11:47:46.118+0545] {processor.py:161} INFO - Started process (PID=38825) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:47:46.120+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:47:46.122+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:47:46.122+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:47:46.153+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:47:46.193+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:47:46.193+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:47:46.210+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:47:46.209+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:47:46.243+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.131 seconds
+[2026-07-20T11:52:10.178+0545] {processor.py:161} INFO - Started process (PID=43117) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:52:10.180+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:52:10.181+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:10.180+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:52:10.199+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:52:10.223+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:10.222+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:52:10.232+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:10.232+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:52:10.253+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.080 seconds
+[2026-07-20T11:53:03.852+0545] {processor.py:161} INFO - Started process (PID=43661) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:03.855+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:53:03.856+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:03.855+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:03.866+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:03.876+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:03.876+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:53:03.882+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:03.882+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:53:03.896+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T11:53:47.235+0545] {processor.py:161} INFO - Started process (PID=44046) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:47.238+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:53:47.239+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:47.238+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:47.249+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:53:47.258+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:47.258+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:53:47.264+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:47.263+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:53:47.279+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T11:55:16.819+0545] {processor.py:161} INFO - Started process (PID=45174) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:16.820+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:55:16.821+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:16.821+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:16.832+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:16.842+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:16.841+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:55:16.847+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:16.847+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:55:16.860+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T11:55:47.377+0545] {processor.py:161} INFO - Started process (PID=45468) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:47.380+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:55:47.381+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:47.380+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:47.391+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:55:47.400+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:47.400+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:55:47.406+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:47.406+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:55:47.420+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T11:56:31.086+0545] {processor.py:161} INFO - Started process (PID=45847) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:56:31.090+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:56:31.090+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:31.090+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:56:31.101+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:56:31.110+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:31.110+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:56:31.116+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:31.116+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:56:31.374+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.292 seconds
+[2026-07-20T11:57:10.371+0545] {processor.py:161} INFO - Started process (PID=46268) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:10.374+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:57:10.375+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:10.375+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:10.385+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:10.393+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:10.393+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:57:10.399+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:10.399+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:57:10.413+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T11:57:56.443+0545] {processor.py:161} INFO - Started process (PID=46664) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:56.446+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:57:56.447+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:56.447+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:56.456+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:57:56.465+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:56.465+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:57:56.470+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:56.470+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:57:56.483+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T11:58:38.793+0545] {processor.py:161} INFO - Started process (PID=47108) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:58:38.796+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:58:38.797+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:38.797+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:58:38.807+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:58:38.816+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:38.816+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:58:38.822+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:38.821+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:58:38.915+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.125 seconds
+[2026-07-20T11:59:18.872+0545] {processor.py:161} INFO - Started process (PID=47562) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:59:18.873+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T11:59:18.874+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:18.873+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:59:18.882+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T11:59:18.890+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:18.890+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:59:18.895+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:18.895+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T11:59:18.907+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.038 seconds
+[2026-07-20T12:02:38.504+0545] {processor.py:161} INFO - Started process (PID=48156) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:02:38.507+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:02:38.508+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:38.507+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:02:38.517+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:02:38.525+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:38.525+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:02:38.530+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:38.530+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:02:38.542+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T12:03:11.212+0545] {processor.py:161} INFO - Started process (PID=48508) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:11.215+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:03:11.216+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:11.216+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:11.226+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:11.235+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:11.235+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:03:11.240+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:11.240+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:03:11.253+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:03:51.685+0545] {processor.py:161} INFO - Started process (PID=48880) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:51.689+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:03:51.689+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:51.689+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:51.701+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:03:51.712+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:51.711+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:03:51.717+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:51.717+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:03:51.732+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.051 seconds
+[2026-07-20T12:04:33.923+0545] {processor.py:161} INFO - Started process (PID=49303) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:04:33.926+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:04:33.927+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:33.926+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:04:33.937+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:04:33.946+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:33.946+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:04:33.952+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:33.952+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:04:33.967+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T12:05:16.776+0545] {processor.py:161} INFO - Started process (PID=49703) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:05:16.780+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:05:16.781+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:16.780+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:05:16.791+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:05:16.800+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:16.800+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:05:16.806+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:16.806+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:05:16.819+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.050 seconds
+[2026-07-20T12:07:01.787+0545] {processor.py:161} INFO - Started process (PID=51281) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:07:01.788+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:07:01.789+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:07:01.789+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:07:01.801+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:07:01.816+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:07:01.816+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:07:01.822+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:07:01.821+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:07:01.835+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.051 seconds
+[2026-07-20T12:08:41.259+0545] {processor.py:161} INFO - Started process (PID=54735) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:08:41.260+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:08:41.260+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:08:41.260+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:08:41.270+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:08:41.282+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:08:41.282+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:08:41.287+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:08:41.287+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:08:41.301+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:09:31.676+0545] {processor.py:161} INFO - Started process (PID=55283) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:09:31.679+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:09:31.680+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:31.679+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:09:31.688+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:09:31.695+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:31.695+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:09:31.700+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:31.700+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:09:31.712+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.039 seconds
+[2026-07-20T12:10:17.430+0545] {processor.py:161} INFO - Started process (PID=55789) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:10:17.433+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:10:17.434+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:17.433+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:10:17.446+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:10:17.456+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:17.456+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:10:17.463+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:17.462+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:10:17.482+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.056 seconds
+[2026-07-20T12:11:50.621+0545] {processor.py:161} INFO - Started process (PID=57046) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:11:50.624+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:11:50.625+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.625+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:11:50.635+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:11:50.644+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.644+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:11:50.650+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.650+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:11:50.663+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:12:36.929+0545] {processor.py:161} INFO - Started process (PID=57529) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:12:36.932+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:12:36.933+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:36.933+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:12:36.944+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:12:36.953+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:36.953+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:12:36.959+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:36.958+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:12:36.973+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T12:13:18.118+0545] {processor.py:161} INFO - Started process (PID=57878) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:13:18.121+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:13:18.121+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:18.121+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:13:18.131+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:13:18.140+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:18.140+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:13:18.145+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:18.145+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:13:18.158+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T12:14:02.602+0545] {processor.py:161} INFO - Started process (PID=58339) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:02.605+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:14:02.605+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:02.605+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:02.615+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:02.704+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:02.704+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:14:02.708+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:02.708+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:14:02.723+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.125 seconds
+[2026-07-20T12:14:47.201+0545] {processor.py:161} INFO - Started process (PID=58724) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:47.204+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:14:47.204+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:47.204+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:47.213+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:14:47.222+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:47.222+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:14:47.228+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:47.228+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:14:47.243+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:15:29.457+0545] {processor.py:161} INFO - Started process (PID=59156) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:15:29.460+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:15:29.461+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:29.460+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:15:29.473+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:15:29.483+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:29.483+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:15:29.489+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:29.489+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:15:29.502+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.050 seconds
+[2026-07-20T12:16:08.313+0545] {processor.py:161} INFO - Started process (PID=59510) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:08.316+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:16:08.317+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:08.316+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:08.326+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:08.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:08.335+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:16:08.341+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:08.340+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:16:08.355+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:16:49.430+0545] {processor.py:161} INFO - Started process (PID=59879) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:49.431+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:16:49.431+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:49.431+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:49.441+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:16:49.450+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:49.450+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:16:49.456+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:49.456+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:16:49.470+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T12:17:31.239+0545] {processor.py:161} INFO - Started process (PID=60336) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:17:31.242+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:17:31.243+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:31.243+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:17:31.253+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:17:31.262+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:31.262+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:17:31.268+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:31.268+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:17:31.282+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:18:11.963+0545] {processor.py:161} INFO - Started process (PID=60692) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:11.966+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:18:11.967+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.966+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:11.978+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:11.987+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.986+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:18:11.992+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.992+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:18:12.005+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:18:55.322+0545] {processor.py:161} INFO - Started process (PID=61080) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:55.325+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:18:55.325+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:55.325+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:55.335+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:18:55.343+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:55.343+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:18:55.349+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:55.349+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:18:55.362+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:19:34.791+0545] {processor.py:161} INFO - Started process (PID=61496) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:19:34.794+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:19:34.794+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:34.794+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:19:34.804+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:19:34.813+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:34.813+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:19:34.818+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:34.818+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:19:34.832+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:20:12.508+0545] {processor.py:161} INFO - Started process (PID=61843) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:12.510+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:20:12.511+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:12.511+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:12.521+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:12.530+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:12.530+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:20:12.536+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:12.536+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:20:12.549+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:20:50.500+0545] {processor.py:161} INFO - Started process (PID=62178) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:50.503+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:20:50.504+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.504+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:50.514+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:20:50.524+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.524+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:20:50.530+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.529+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:20:50.545+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T12:21:32.329+0545] {processor.py:161} INFO - Started process (PID=62606) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:21:32.332+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:21:32.332+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:32.332+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:21:32.342+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:21:32.351+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:32.351+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:21:32.357+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:32.357+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:21:32.371+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:22:14.627+0545] {processor.py:161} INFO - Started process (PID=62973) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:14.630+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:22:14.630+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:14.630+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:14.644+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:14.654+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:14.653+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:22:14.659+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:14.659+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:22:14.674+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.052 seconds
+[2026-07-20T12:22:56.931+0545] {processor.py:161} INFO - Started process (PID=63415) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:56.934+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:22:56.934+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:56.934+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:56.944+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:22:56.953+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:56.953+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:22:56.959+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:56.959+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:22:57.238+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.311 seconds
+[2026-07-20T12:23:39.185+0545] {processor.py:161} INFO - Started process (PID=63780) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:23:39.188+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:23:39.189+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:39.189+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:23:39.199+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:23:39.208+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:39.208+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:23:39.213+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:39.213+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:23:39.226+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:24:25.740+0545] {processor.py:161} INFO - Started process (PID=64177) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:24:25.743+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:24:25.743+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:25.743+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:24:25.752+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:24:25.761+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:25.761+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:24:25.767+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:25.767+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:24:25.780+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:25:08.018+0545] {processor.py:161} INFO - Started process (PID=64636) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:08.021+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:25:08.021+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:08.021+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:08.031+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:08.040+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:08.040+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:25:08.045+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:08.045+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:25:08.060+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:25:50.281+0545] {processor.py:161} INFO - Started process (PID=65010) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:50.285+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:25:50.285+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:50.285+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:50.296+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:25:50.305+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:50.305+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:25:50.310+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:50.310+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:25:50.324+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T12:26:31.365+0545] {processor.py:161} INFO - Started process (PID=65426) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:26:31.368+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:26:31.369+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:31.369+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:26:31.380+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:26:31.390+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:31.389+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:26:31.395+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:31.395+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:26:31.408+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T12:27:11.584+0545] {processor.py:161} INFO - Started process (PID=65777) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:11.585+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:27:11.586+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.585+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:11.595+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:11.605+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.605+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:27:11.610+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.610+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:27:11.623+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T12:27:54.048+0545] {processor.py:161} INFO - Started process (PID=66168) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:54.051+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:27:54.051+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:54.051+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:54.062+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:27:54.070+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:54.070+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:27:54.076+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:54.076+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:27:54.089+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:28:38.003+0545] {processor.py:161} INFO - Started process (PID=66630) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:28:38.006+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:28:38.007+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:38.007+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:28:38.016+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:28:38.025+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:38.025+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:28:38.031+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:38.031+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:28:38.045+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T12:29:20.131+0545] {processor.py:161} INFO - Started process (PID=67003) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:20.134+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:29:20.135+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:20.135+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:20.145+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:20.154+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:20.154+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:29:20.159+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:20.159+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:29:20.174+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T12:29:57.565+0545] {processor.py:161} INFO - Started process (PID=67388) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:57.568+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:29:57.569+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:57.569+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:57.579+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:29:57.588+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:57.588+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:29:57.594+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:57.594+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:29:57.608+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-21T00:02:49.330+0545] {processor.py:161} INFO - Started process (PID=68075) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:02:49.333+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-21T00:02:49.334+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.333+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:02:49.342+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:02:49.349+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.349+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:02:49.354+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.354+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-21T00:02:49.367+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.040 seconds
+[2026-07-21T00:03:27.031+0545] {processor.py:161} INFO - Started process (PID=68460) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:03:27.035+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-21T00:03:27.035+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:27.035+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:03:27.046+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:03:27.054+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:27.054+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:03:27.059+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:27.059+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-21T00:03:27.072+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-21T00:04:06.401+0545] {processor.py:161} INFO - Started process (PID=68882) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:06.402+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-21T00:04:06.403+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:06.402+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:06.412+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:06.422+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:06.421+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:04:06.427+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:06.427+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-21T00:04:06.442+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-21T00:04:45.818+0545] {processor.py:161} INFO - Started process (PID=69303) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:45.820+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-21T00:04:45.821+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:45.821+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:45.830+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-21T00:04:45.840+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:45.840+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:04:45.845+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:45.845+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-21T00:04:45.859+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T12:36:19.125+0545] {processor.py:161} INFO - Started process (PID=70550) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:36:19.127+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:36:19.128+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:36:19.127+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:36:19.140+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:36:19.158+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:36:19.158+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:36:19.166+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:36:19.165+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:36:19.181+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.059 seconds
+[2026-07-20T12:38:35.129+0545] {processor.py:161} INFO - Started process (PID=74218) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:38:35.130+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:38:35.131+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:38:35.131+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:38:35.142+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:38:35.155+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:38:35.155+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:38:35.160+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:38:35.160+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:38:35.174+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.049 seconds
+[2026-07-20T12:40:34.471+0545] {processor.py:161} INFO - Started process (PID=75693) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:40:34.472+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:40:34.473+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:40:34.473+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:40:34.484+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:40:34.503+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:40:34.502+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:40:34.509+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:40:34.509+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:40:34.524+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.056 seconds
+[2026-07-20T12:57:10.491+0545] {processor.py:161} INFO - Started process (PID=89369) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:57:10.493+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T12:57:10.494+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:57:10.493+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:57:10.505+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T12:57:10.525+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:57:10.525+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:57:10.531+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:57:10.531+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T12:57:10.547+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.060 seconds
+[2026-07-20T13:11:37.270+0545] {processor.py:161} INFO - Started process (PID=101031) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:11:37.271+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:11:37.272+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:11:37.271+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:11:37.283+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:11:37.297+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:11:37.296+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:11:37.302+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:11:37.302+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:11:37.315+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T13:19:38.103+0545] {processor.py:161} INFO - Started process (PID=105813) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:19:38.104+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:19:38.105+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:19:38.104+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:19:38.115+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:19:38.129+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:19:38.129+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:19:38.135+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:19:38.134+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:19:38.147+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T13:23:01.235+0545] {processor.py:161} INFO - Started process (PID=108728) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:01.237+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:23:01.237+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:01.237+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:01.249+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:01.266+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:01.266+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:23:01.274+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:01.274+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:23:01.289+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.057 seconds
+[2026-07-20T13:23:51.785+0545] {processor.py:161} INFO - Started process (PID=109138) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:51.788+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:23:51.789+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:51.788+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:51.799+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:23:51.808+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:51.808+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:23:51.814+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:51.814+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:23:51.827+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:24:32.346+0545] {processor.py:161} INFO - Started process (PID=109567) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:24:32.349+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:24:32.350+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:32.349+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:24:32.359+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:24:32.367+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:32.367+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:24:32.373+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:32.373+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:24:32.387+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T13:25:14.036+0545] {processor.py:161} INFO - Started process (PID=109928) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:14.039+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:25:14.040+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:14.040+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:14.050+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:14.058+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:14.058+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:25:14.064+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:14.063+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:25:14.077+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T13:25:59.238+0545] {processor.py:161} INFO - Started process (PID=110345) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:59.241+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:25:59.242+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:59.241+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:59.251+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:25:59.260+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:59.260+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:25:59.266+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:59.266+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:25:59.279+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.044 seconds
+[2026-07-20T13:26:44.116+0545] {processor.py:161} INFO - Started process (PID=110729) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:26:44.119+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:26:44.120+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:44.119+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:26:44.129+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:26:44.138+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:44.138+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:26:44.143+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:44.143+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:26:44.157+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T13:27:33.583+0545] {processor.py:161} INFO - Started process (PID=111199) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:27:33.586+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:27:33.587+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:33.586+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:27:33.596+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:27:33.605+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:33.605+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:27:33.611+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:33.611+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:27:33.625+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:28:20.218+0545] {processor.py:161} INFO - Started process (PID=111589) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:28:20.221+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:28:20.221+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:20.221+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:28:20.231+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:28:20.240+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:20.240+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:28:20.246+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:20.246+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:28:20.259+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:29:00.659+0545] {processor.py:161} INFO - Started process (PID=111985) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:00.662+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:29:00.663+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:00.663+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:00.674+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:00.683+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:00.683+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:29:00.688+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:00.688+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:29:00.704+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.050 seconds
+[2026-07-20T13:29:38.237+0545] {processor.py:161} INFO - Started process (PID=112313) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:38.240+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:29:38.240+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:38.240+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:38.250+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:29:38.259+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:38.259+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:29:38.266+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:38.266+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:29:38.281+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T13:30:21.246+0545] {processor.py:161} INFO - Started process (PID=112695) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:30:21.249+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:30:21.250+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:21.249+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:30:21.259+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:30:21.269+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:21.268+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:30:21.274+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:21.274+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:30:21.287+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:31:06.570+0545] {processor.py:161} INFO - Started process (PID=113138) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:06.573+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:31:06.574+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:06.573+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:06.584+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:06.593+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:06.592+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:31:06.599+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:06.599+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:31:06.612+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:31:49.195+0545] {processor.py:161} INFO - Started process (PID=113497) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:49.198+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:31:49.198+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:49.198+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:49.208+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:31:49.217+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:49.217+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:31:49.223+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:49.223+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:31:49.237+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:32:30.882+0545] {processor.py:161} INFO - Started process (PID=113907) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:32:30.886+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:32:30.886+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:30.886+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:32:30.896+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:32:30.905+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:30.905+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:32:30.910+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:30.910+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:32:30.924+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:33:11.316+0545] {processor.py:161} INFO - Started process (PID=114277) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:11.320+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:33:11.320+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:11.320+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:11.330+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:11.340+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:11.339+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:33:11.345+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:11.345+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:33:11.359+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:33:51.819+0545] {processor.py:161} INFO - Started process (PID=114610) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:51.822+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:33:51.823+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:51.822+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:51.833+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:33:51.842+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:51.842+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:33:51.847+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:51.847+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:33:51.861+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T13:34:33.981+0545] {processor.py:161} INFO - Started process (PID=115021) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:34:33.984+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:34:33.985+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:33.985+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:34:33.996+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:34:34.005+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:34.005+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:34:34.011+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:34.011+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:34:34.024+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T13:35:14.116+0545] {processor.py:161} INFO - Started process (PID=115369) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:14.119+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:35:14.120+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:14.120+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:14.130+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:14.139+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:14.139+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:35:14.145+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:14.144+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:35:14.158+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.046 seconds
+[2026-07-20T13:35:53.385+0545] {processor.py:161} INFO - Started process (PID=115708) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:53.388+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:35:53.388+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:53.388+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:53.398+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:35:53.407+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:53.406+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:35:53.413+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:53.412+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:35:53.426+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:36:38.451+0545] {processor.py:161} INFO - Started process (PID=116143) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:36:38.454+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:36:38.455+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:38.454+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:36:38.464+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:36:38.473+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:38.473+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:36:38.479+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:38.478+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:36:38.492+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:37:20.969+0545] {processor.py:161} INFO - Started process (PID=116499) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:37:20.972+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:37:20.973+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:20.973+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:37:20.984+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:37:20.993+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:20.993+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:37:20.999+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:20.998+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:37:21.013+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.048 seconds
+[2026-07-20T13:38:03.419+0545] {processor.py:161} INFO - Started process (PID=116907) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:03.431+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:38:03.432+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:03.432+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:03.443+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:03.453+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:03.453+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:38:03.459+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:03.458+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:38:03.480+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.065 seconds
+[2026-07-20T13:38:46.203+0545] {processor.py:161} INFO - Started process (PID=117277) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:46.206+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:38:46.207+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:46.206+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:46.219+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:38:46.229+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:46.229+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:38:46.234+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:46.234+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:38:46.248+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.049 seconds
+[2026-07-20T13:39:25.934+0545] {processor.py:161} INFO - Started process (PID=117663) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:39:25.937+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:39:25.938+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:25.937+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:39:25.948+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:39:25.957+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:25.957+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:39:25.963+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:25.963+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:39:25.977+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:40:06.195+0545] {processor.py:161} INFO - Started process (PID=118044) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:06.196+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:40:06.197+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:06.196+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:06.208+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:06.217+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:06.217+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:40:06.222+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:06.222+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:40:06.235+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:40:45.334+0545] {processor.py:161} INFO - Started process (PID=118380) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:45.337+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:40:45.338+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:45.338+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:45.349+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:40:45.357+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:45.356+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:40:45.362+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:45.361+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:40:45.374+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.045 seconds
+[2026-07-20T13:41:25.795+0545] {processor.py:161} INFO - Started process (PID=118790) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:41:25.798+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:41:25.799+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:25.799+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:41:25.811+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:41:25.819+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:25.819+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:41:25.825+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:25.825+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:41:25.838+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.047 seconds
+[2026-07-20T13:42:07.675+0545] {processor.py:161} INFO - Started process (PID=119169) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:07.678+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:42:07.679+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:07.678+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:07.688+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:07.696+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:07.696+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:42:07.701+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:07.701+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:42:07.714+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.043 seconds
+[2026-07-20T13:42:49.270+0545] {processor.py:161} INFO - Started process (PID=119531) to work on /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:49.272+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py for tasks to queue
+[2026-07-20T13:42:49.274+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:49.273+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:49.297+0545] {processor.py:840} INFO - DAG(s) 'network_traffic_pipeline' retrieved from /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py
+[2026-07-20T13:42:49.316+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:49.316+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:42:49.327+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:49.327+0545] {dag.py:3947} INFO - Setting next_dagrun for network_traffic_pipeline to None, run_after=None
+[2026-07-20T13:42:49.348+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/airflow/dags/network_traffic_pipeline_dag.py took 0.086 seconds

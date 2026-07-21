@@ -1,0 +1,35 @@
+[2026-07-20T12:36:39.176+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-20T12:36:39.186+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:36:39.189+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:36:39.189+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-20T12:36:39.199+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): start_containers> on 2026-07-20 06:51:36.359976+00:00
+[2026-07-20T12:36:39.202+0545] {standard_task_runner.py:64} INFO - Started process 70706 to run task
+[2026-07-20T12:36:39.204+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'start_containers', 'manual__2026-07-20T06:51:36.359976+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmptsnr9fzu']
+[2026-07-20T12:36:39.205+0545] {standard_task_runner.py:91} INFO - Job 102: Subtask start_containers
+[2026-07-20T12:36:39.227+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-20T06:51:36.359976+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-20T12:36:39.264+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='start_containers' AIRFLOW_CTX_EXECUTION_DATE='2026-07-20T06:51:36.359976+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-20T06:51:36.359976+00:00'
+[2026-07-20T12:36:39.265+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-20T12:36:39.266+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-20T12:36:39.266+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose up -d && sleep 15']
+[2026-07-20T12:36:39.273+0545] {subprocess.py:86} INFO - Output:
+[2026-07-20T12:36:39.487+0545] {subprocess.py:93} INFO - Creating network "bigdata_bigdata-net" with driver "bridge"
+[2026-07-20T12:36:39.714+0545] {subprocess.py:93} INFO - Creating bigdata_oracle_1 ...
+[2026-07-20T12:36:39.716+0545] {subprocess.py:93} INFO - Creating bigdata_namenode_1 ...
+[2026-07-20T12:36:39.717+0545] {subprocess.py:93} INFO - Creating bigdata_spark-master_1 ...
+[2026-07-20T12:36:39.994+0545] {subprocess.py:93} INFO - Creating bigdata_oracle_1       ... done
+[2026-07-20T12:36:40.027+0545] {subprocess.py:93} INFO - Creating bigdata_namenode_1     ... done
+[2026-07-20T12:36:40.031+0545] {subprocess.py:93} INFO - Creating bigdata_datanode2_1    ...
+[2026-07-20T12:36:40.032+0545] {subprocess.py:93} INFO - Creating bigdata_datanode1_1    ...
+[2026-07-20T12:36:40.058+0545] {subprocess.py:93} INFO - Creating bigdata_spark-master_1 ... done
+[2026-07-20T12:36:40.063+0545] {subprocess.py:93} INFO - Creating bigdata_spark-worker1_1 ...
+[2026-07-20T12:36:40.064+0545] {subprocess.py:93} INFO - Creating bigdata_spark-worker2_1 ...
+[2026-07-20T12:36:40.353+0545] {subprocess.py:93} INFO - Creating bigdata_datanode2_1     ... done
+[2026-07-20T12:36:40.365+0545] {subprocess.py:93} INFO - Creating bigdata_datanode1_1     ... done
+[2026-07-20T12:36:40.390+0545] {subprocess.py:93} INFO - Creating bigdata_spark-worker1_1 ... done
+[2026-07-20T12:36:40.403+0545] {subprocess.py:93} INFO - Creating bigdata_spark-worker2_1 ... done
+[2026-07-20T12:36:55.465+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-20T12:36:55.466+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-20T12:36:55.505+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=start_containers, run_id=manual__2026-07-20T06:51:36.359976+00:00, execution_date=20260720T065136, start_date=20260720T065139, end_date=20260720T065155
+[2026-07-20T12:36:55.574+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-20T12:36:55.627+0545] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-07-20T12:36:55.632+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

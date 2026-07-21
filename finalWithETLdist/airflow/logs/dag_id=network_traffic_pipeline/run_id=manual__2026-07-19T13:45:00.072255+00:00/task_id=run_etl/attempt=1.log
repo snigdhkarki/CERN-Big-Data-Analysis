@@ -1,0 +1,139 @@
+[2026-07-19T19:30:22.561+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-19T19:30:22.572+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.run_etl manual__2026-07-19T13:45:00.072255+00:00 [queued]>
+[2026-07-19T19:30:22.575+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.run_etl manual__2026-07-19T13:45:00.072255+00:00 [queued]>
+[2026-07-19T19:30:22.575+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-19T19:30:22.585+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): run_etl> on 2026-07-19 13:45:00.072255+00:00
+[2026-07-19T19:30:22.588+0545] {standard_task_runner.py:64} INFO - Started process 67929 to run task
+[2026-07-19T19:30:22.590+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'run_etl', 'manual__2026-07-19T13:45:00.072255+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmpm7vn73__']
+[2026-07-19T19:30:22.591+0545] {standard_task_runner.py:91} INFO - Job 43: Subtask run_etl
+[2026-07-19T19:30:22.616+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.run_etl manual__2026-07-19T13:45:00.072255+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-19T19:30:22.651+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='run_etl' AIRFLOW_CTX_EXECUTION_DATE='2026-07-19T13:45:00.072255+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-19T13:45:00.072255+00:00'
+[2026-07-19T19:30:22.652+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-19T19:30:22.652+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-19T19:30:22.652+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && python etl_job.py']
+[2026-07-19T19:30:22.660+0545] {subprocess.py:86} INFO - Output:
+[2026-07-19T19:30:22.986+0545] {subprocess.py:93} INFO - WARNING: Using incubator modules: jdk.incubator.vector
+[2026-07-19T19:30:23.587+0545] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-07-19T19:30:23.610+0545] {subprocess.py:93} INFO - 26/07/19 19:30:23 WARN Utils: Your hostname, snigdh-IdeaPad-Slim-3-15IAH8, resolves to a loopback address: 127.0.1.1; using 192.168.18.4 instead (on interface wlp0s20f3)
+[2026-07-19T19:30:23.614+0545] {subprocess.py:93} INFO - 26/07/19 19:30:23 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2026-07-19T19:30:23.813+0545] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2026-07-19T19:30:23.905+0545] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/snigdh/.ivy2.5.2/cache
+[2026-07-19T19:30:23.905+0545] {subprocess.py:93} INFO - The jars for the packages stored in: /home/snigdh/.ivy2.5.2/jars
+[2026-07-19T19:30:23.909+0545] {subprocess.py:93} INFO - io.delta#delta-spark_4.1_2.13 added as a dependency
+[2026-07-19T19:30:23.910+0545] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-3229d3ce-2eda-408d-8a23-b16b45496a6e;1.0
+[2026-07-19T19:30:23.911+0545] {subprocess.py:93} INFO - 	confs: [default]
+[2026-07-19T19:30:24.032+0545] {subprocess.py:93} INFO - 	found io.delta#delta-spark_4.1_2.13;4.3.1 in central
+[2026-07-19T19:30:24.066+0545] {subprocess.py:93} INFO - 	found io.delta#delta-storage;4.3.1 in central
+[2026-07-19T19:30:24.097+0545] {subprocess.py:93} INFO - 	found io.unitycatalog#unitycatalog-client;0.5.0 in central
+[2026-07-19T19:30:24.130+0545] {subprocess.py:93} INFO - 	found org.slf4j#slf4j-api;2.0.13 in central
+[2026-07-19T19:30:24.181+0545] {subprocess.py:93} INFO - 	found org.apache.logging.log4j#log4j-slf4j2-impl;2.25.3 in central
+[2026-07-19T19:30:24.217+0545] {subprocess.py:93} INFO - 	found org.apache.logging.log4j#log4j-api;2.25.3 in central
+[2026-07-19T19:30:24.238+0545] {subprocess.py:93} INFO - 	found com.google.code.findbugs#jsr305;3.0.2 in central
+[2026-07-19T19:30:24.257+0545] {subprocess.py:93} INFO - 	found io.unitycatalog#unitycatalog-hadoop;0.5.0 in central
+[2026-07-19T19:30:24.300+0545] {subprocess.py:93} INFO - 	found org.apache.logging.log4j#log4j-core;2.25.3 in central
+[2026-07-19T19:30:24.320+0545] {subprocess.py:93} INFO - 	found io.delta#delta-kernel-api;4.3.1 in central
+[2026-07-19T19:30:24.335+0545] {subprocess.py:93} INFO - 	found org.roaringbitmap#RoaringBitmap;0.9.25 in central
+[2026-07-19T19:30:24.360+0545] {subprocess.py:93} INFO - 	found com.fasterxml.jackson.core#jackson-databind;2.13.5 in central
+[2026-07-19T19:30:24.383+0545] {subprocess.py:93} INFO - 	found com.fasterxml.jackson.core#jackson-annotations;2.13.5 in central
+[2026-07-19T19:30:24.407+0545] {subprocess.py:93} INFO - 	found com.fasterxml.jackson.core#jackson-core;2.13.5 in central
+[2026-07-19T19:30:24.426+0545] {subprocess.py:93} INFO - 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.13.5 in central
+[2026-07-19T19:30:24.447+0545] {subprocess.py:93} INFO - 	found org.roaringbitmap#shims;0.9.25 in central
+[2026-07-19T19:30:24.465+0545] {subprocess.py:93} INFO - 	found io.delta#delta-kernel-defaults;4.3.1 in central
+[2026-07-19T19:30:24.492+0545] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-client-runtime;3.4.2 in central
+[2026-07-19T19:30:24.516+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-hadoop;1.16.0 in central
+[2026-07-19T19:30:24.536+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-column;1.16.0 in central
+[2026-07-19T19:30:24.555+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-common;1.16.0 in central
+[2026-07-19T19:30:24.573+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-format-structures;1.16.0 in central
+[2026-07-19T19:30:24.591+0545] {subprocess.py:93} INFO - 	found javax.annotation#javax.annotation-api;1.3.2 in central
+[2026-07-19T19:30:24.624+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-encoding;1.16.0 in central
+[2026-07-19T19:30:24.640+0545] {subprocess.py:93} INFO - 	found org.locationtech.jts#jts-core;1.20.0 in central
+[2026-07-19T19:30:24.654+0545] {subprocess.py:93} INFO - 	found org.xerial.snappy#snappy-java;1.1.10.7 in central
+[2026-07-19T19:30:24.671+0545] {subprocess.py:93} INFO - 	found io.airlift#aircompressor;2.0.2 in central
+[2026-07-19T19:30:24.686+0545] {subprocess.py:93} INFO - 	found commons-pool#commons-pool;1.6 in central
+[2026-07-19T19:30:24.699+0545] {subprocess.py:93} INFO - 	found com.github.luben#zstd-jni;1.5.7-3 in central
+[2026-07-19T19:30:24.723+0545] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-client-api;3.4.2 in central
+[2026-07-19T19:30:24.741+0545] {subprocess.py:93} INFO - 	found commons-logging#commons-logging;1.3.0 in central
+[2026-07-19T19:30:24.762+0545] {subprocess.py:93} INFO - 	found org.apache.parquet#parquet-jackson;1.16.0 in central
+[2026-07-19T19:30:24.774+0545] {subprocess.py:93} INFO - 	found io.delta#delta-kernel-unitycatalog;4.3.1 in central
+[2026-07-19T19:30:24.814+0545] {subprocess.py:93} INFO - :: resolution report :: resolve 880ms :: artifacts dl 24ms
+[2026-07-19T19:30:24.815+0545] {subprocess.py:93} INFO - 	:: modules in use:
+[2026-07-19T19:30:24.816+0545] {subprocess.py:93} INFO - 	com.fasterxml.jackson.core#jackson-annotations;2.13.5 from central in [default]
+[2026-07-19T19:30:24.816+0545] {subprocess.py:93} INFO - 	com.fasterxml.jackson.core#jackson-core;2.13.5 from central in [default]
+[2026-07-19T19:30:24.816+0545] {subprocess.py:93} INFO - 	com.fasterxml.jackson.core#jackson-databind;2.13.5 from central in [default]
+[2026-07-19T19:30:24.816+0545] {subprocess.py:93} INFO - 	com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.13.5 from central in [default]
+[2026-07-19T19:30:24.817+0545] {subprocess.py:93} INFO - 	com.github.luben#zstd-jni;1.5.7-3 from central in [default]
+[2026-07-19T19:30:24.817+0545] {subprocess.py:93} INFO - 	com.google.code.findbugs#jsr305;3.0.2 from central in [default]
+[2026-07-19T19:30:24.817+0545] {subprocess.py:93} INFO - 	commons-logging#commons-logging;1.3.0 from central in [default]
+[2026-07-19T19:30:24.817+0545] {subprocess.py:93} INFO - 	commons-pool#commons-pool;1.6 from central in [default]
+[2026-07-19T19:30:24.817+0545] {subprocess.py:93} INFO - 	io.airlift#aircompressor;2.0.2 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.delta#delta-kernel-api;4.3.1 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.delta#delta-kernel-defaults;4.3.1 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.delta#delta-kernel-unitycatalog;4.3.1 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.delta#delta-spark_4.1_2.13;4.3.1 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.delta#delta-storage;4.3.1 from central in [default]
+[2026-07-19T19:30:24.818+0545] {subprocess.py:93} INFO - 	io.unitycatalog#unitycatalog-client;0.5.0 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	io.unitycatalog#unitycatalog-hadoop;0.5.0 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	javax.annotation#javax.annotation-api;1.3.2 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-client-api;3.4.2 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-client-runtime;3.4.2 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	org.apache.logging.log4j#log4j-api;2.25.3 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	org.apache.logging.log4j#log4j-core;2.25.3 from central in [default]
+[2026-07-19T19:30:24.819+0545] {subprocess.py:93} INFO - 	org.apache.logging.log4j#log4j-slf4j2-impl;2.25.3 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-column;1.16.0 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-common;1.16.0 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-encoding;1.16.0 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-format-structures;1.16.0 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-hadoop;1.16.0 from central in [default]
+[2026-07-19T19:30:24.820+0545] {subprocess.py:93} INFO - 	org.apache.parquet#parquet-jackson;1.16.0 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	org.locationtech.jts#jts-core;1.20.0 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	org.roaringbitmap#RoaringBitmap;0.9.25 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	org.roaringbitmap#shims;0.9.25 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	org.slf4j#slf4j-api;2.0.13 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	org.xerial.snappy#snappy-java;1.1.10.7 from central in [default]
+[2026-07-19T19:30:24.821+0545] {subprocess.py:93} INFO - 	:: evicted modules:
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	org.slf4j#slf4j-api;2.0.17 by [org.slf4j#slf4j-api;2.0.13] in [default]
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	org.slf4j#slf4j-api;1.7.36 by [org.slf4j#slf4j-api;2.0.13] in [default]
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	org.slf4j#slf4j-api;1.7.33 by [org.slf4j#slf4j-api;2.0.13] in [default]
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	org.xerial.snappy#snappy-java;1.1.10.4 by [org.xerial.snappy#snappy-java;1.1.10.7] in [default]
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2026-07-19T19:30:24.822+0545] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2026-07-19T19:30:24.823+0545] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-07-19T19:30:24.823+0545] {subprocess.py:93} INFO - 	|      default     |   37  |   0   |   0   |   4   ||   33  |   0   |
+[2026-07-19T19:30:24.823+0545] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-07-19T19:30:24.829+0545] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-3229d3ce-2eda-408d-8a23-b16b45496a6e
+[2026-07-19T19:30:24.829+0545] {subprocess.py:93} INFO - 	confs: [default]
+[2026-07-19T19:30:24.843+0545] {subprocess.py:93} INFO - 	0 artifacts copied, 33 already retrieved (0kB/14ms)
+[2026-07-19T19:30:25.136+0545] {subprocess.py:93} INFO - 26/07/19 19:30:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-07-19T19:30:25.416+0545] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-07-19T19:30:25.416+0545] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2026-07-19T19:30:25.416+0545] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-07-19T19:30:26.666+0545] {subprocess.py:93} INFO - 26/07/19 19:30:26 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2026-07-19T19:30:32.813+0545] {subprocess.py:93} INFO - 26/07/19 19:30:32 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:32.863+0545] {subprocess.py:93} INFO - 26/07/19 19:30:32 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:32.881+0545] {subprocess.py:93} INFO - 26/07/19 19:30:32 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:33.985+0545] {subprocess.py:93} INFO - 26/07/19 19:30:33 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:33.986+0545] {subprocess.py:93} INFO - 26/07/19 19:30:33 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:36.180+0545] {subprocess.py:93} INFO - 26/07/19 19:30:36 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:36.182+0545] {subprocess.py:93} INFO - 26/07/19 19:30:36 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:36.932+0545] {subprocess.py:93} INFO - 26/07/19 19:30:36 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:36.934+0545] {subprocess.py:93} INFO - 26/07/19 19:30:36 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-19T19:30:41.917+0545] {subprocess.py:93} INFO - [Stage 8:>                                                          (0 + 4) / 4]                                                                                26/07/19 19:30:41 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2026-07-19T19:30:45.634+0545] {subprocess.py:93} INFO - [Stage 11:>                                                       (0 + 12) / 50][Stage 11:=============>                                         (12 + 12) / 50][Stage 11:================>                                      (15 + 13) / 50][Stage 11:===========================>                           (25 + 12) / 50][Stage 11:======================================>                (35 + 12) / 50][Stage 11:==========================================>            (39 + 11) / 50]                                                                                Data extracted from Oracle (first 5 rows):
+[2026-07-19T19:30:45.634+0545] {subprocess.py:93} INFO - +---+-------------+----------------+------------+-------------+----------------+
+[2026-07-19T19:30:45.635+0545] {subprocess.py:93} INFO - | ID| PIXEL_TEMP_C|LAR_PRESSURE_BAR|LV_VOLTAGE_V|HV_CURRENT_UA|COOLING_FLOW_LPM|
+[2026-07-19T19:30:45.635+0545] {subprocess.py:93} INFO - +---+-------------+----------------+------------+-------------+----------------+
+[2026-07-19T19:30:45.635+0545] {subprocess.py:93} INFO - |  1|-9.7597325893|    1.3214034201|3.2927583253|40.7438324717|   11.8524055483|
+[2026-07-19T19:30:45.635+0545] {subprocess.py:93} INFO - |  2|-9.9104251739|    1.3191925962|3.3026283382|40.4408897284|   11.8332562583|
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - |  3|-9.8567808184|    1.3228460688|3.3012977197|40.4584988574|   11.9115686003|
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - |  4|-9.9062016427|    1.3177462579|3.2974716507|40.8641386345|   11.9013798527|
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - |  5|-9.6123437887|    1.3163756582|3.2953771365|40.6205192286|   11.7812616752|
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - +---+-------------+----------------+------------+-------------+----------------+
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-07-19T19:30:45.636+0545] {subprocess.py:93} INFO - Data successfully written to hdfs://localhost:9000/user/demo/network_data
+[2026-07-19T19:30:46.126+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-19T19:30:46.127+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-19T19:30:46.142+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=run_etl, run_id=manual__2026-07-19T13:45:00.072255+00:00, execution_date=20260719T134500, start_date=20260719T134522, end_date=20260719T134546
+[2026-07-19T19:30:46.166+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-19T19:30:46.186+0545] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-07-19T19:30:46.190+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

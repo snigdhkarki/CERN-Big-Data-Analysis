@@ -1,0 +1,27 @@
+[2026-07-19T19:30:02.290+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-19T19:30:02.301+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-19T13:45:00.072255+00:00 [queued]>
+[2026-07-19T19:30:02.304+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-19T13:45:00.072255+00:00 [queued]>
+[2026-07-19T19:30:02.304+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-19T19:30:02.312+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): start_containers> on 2026-07-19 13:45:00.072255+00:00
+[2026-07-19T19:30:02.316+0545] {standard_task_runner.py:64} INFO - Started process 67615 to run task
+[2026-07-19T19:30:02.318+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'start_containers', 'manual__2026-07-19T13:45:00.072255+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmpkdtghade']
+[2026-07-19T19:30:02.319+0545] {standard_task_runner.py:91} INFO - Job 41: Subtask start_containers
+[2026-07-19T19:30:02.341+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.start_containers manual__2026-07-19T13:45:00.072255+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-19T19:30:02.374+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='start_containers' AIRFLOW_CTX_EXECUTION_DATE='2026-07-19T13:45:00.072255+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-19T13:45:00.072255+00:00'
+[2026-07-19T19:30:02.375+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-19T19:30:02.377+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-19T19:30:02.377+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose up -d && sleep 15']
+[2026-07-19T19:30:02.385+0545] {subprocess.py:86} INFO - Output:
+[2026-07-19T19:30:02.961+0545] {subprocess.py:93} INFO - bigdata_spark-master_1 is up-to-date
+[2026-07-19T19:30:02.961+0545] {subprocess.py:93} INFO - bigdata_oracle_1 is up-to-date
+[2026-07-19T19:30:02.962+0545] {subprocess.py:93} INFO - bigdata_namenode_1 is up-to-date
+[2026-07-19T19:30:02.962+0545] {subprocess.py:93} INFO - bigdata_spark-worker1_1 is up-to-date
+[2026-07-19T19:30:02.963+0545] {subprocess.py:93} INFO - bigdata_spark-worker2_1 is up-to-date
+[2026-07-19T19:30:02.963+0545] {subprocess.py:93} INFO - bigdata_datanode1_1 is up-to-date
+[2026-07-19T19:30:02.963+0545] {subprocess.py:93} INFO - bigdata_datanode2_1 is up-to-date
+[2026-07-19T19:30:18.001+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-19T19:30:18.002+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-19T19:30:18.023+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=start_containers, run_id=manual__2026-07-19T13:45:00.072255+00:00, execution_date=20260719T134500, start_date=20260719T134502, end_date=20260719T134518
+[2026-07-19T19:30:18.038+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-19T19:30:18.052+0545] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-07-19T19:30:18.055+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

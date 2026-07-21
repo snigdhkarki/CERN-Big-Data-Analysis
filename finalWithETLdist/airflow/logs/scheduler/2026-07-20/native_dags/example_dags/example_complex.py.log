@@ -1,0 +1,602 @@
+[2026-07-20T20:50:58.928+0545] {processor.py:161} INFO - Started process (PID=85481) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:50:58.928+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:50:58.929+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:58.929+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:50:58.933+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:50:58.947+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:58.946+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:50:58.953+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:58.953+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:50:58.967+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T20:51:48.646+0545] {processor.py:161} INFO - Started process (PID=85985) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:51:48.649+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:51:48.650+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:48.650+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:51:48.654+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:51:48.667+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:48.667+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:51:48.673+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:48.673+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:51:48.686+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T20:52:50.603+0545] {processor.py:161} INFO - Started process (PID=86580) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:52:50.606+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:52:50.607+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:50.607+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:52:50.611+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:52:50.625+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:50.624+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:52:50.631+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:50.631+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:52:50.645+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T20:53:51.501+0545] {processor.py:161} INFO - Started process (PID=87171) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:53:51.504+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:53:51.505+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:51.504+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:53:51.509+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:53:51.523+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:51.523+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:53:51.528+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:51.528+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:53:51.541+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T20:55:00.170+0545] {processor.py:161} INFO - Started process (PID=87790) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:55:00.173+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:55:00.174+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:00.174+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:55:00.178+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:55:00.190+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:00.190+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:55:00.195+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:00.195+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:55:00.208+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.040 seconds
+[2026-07-20T20:56:05.830+0545] {processor.py:161} INFO - Started process (PID=88413) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:56:05.833+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:56:05.834+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:05.833+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:56:05.839+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:56:05.852+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:05.852+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:56:05.858+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:05.858+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:56:05.873+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T20:57:05.163+0545] {processor.py:161} INFO - Started process (PID=88993) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:57:05.166+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:57:05.167+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:05.167+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:57:05.172+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:57:05.184+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:05.184+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:57:05.190+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:05.190+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:57:05.202+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T20:58:13.049+0545] {processor.py:161} INFO - Started process (PID=89633) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:58:13.052+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:58:13.053+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:13.053+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:58:13.057+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:58:13.071+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:13.071+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:58:13.077+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:13.077+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:58:13.091+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T20:59:15.300+0545] {processor.py:161} INFO - Started process (PID=90258) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:59:15.303+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T20:59:15.304+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:15.304+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:59:15.308+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T20:59:15.320+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:15.320+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T20:59:15.325+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:15.325+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T20:59:15.338+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.041 seconds
+[2026-07-20T21:00:17.268+0545] {processor.py:161} INFO - Started process (PID=90868) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:00:17.272+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:00:17.272+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:17.272+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:00:17.277+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:00:17.289+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:17.289+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:00:17.294+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:17.294+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:00:17.307+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T21:01:17.959+0545] {processor.py:161} INFO - Started process (PID=91467) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:01:17.962+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:01:17.963+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:17.963+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:01:17.968+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:01:17.982+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:17.982+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:01:17.988+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:17.987+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:01:18.001+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T21:02:19.234+0545] {processor.py:161} INFO - Started process (PID=92051) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:02:19.237+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:02:19.238+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:19.238+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:02:19.243+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:02:19.255+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:19.255+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:02:19.261+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:02:19.260+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:02:19.273+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T21:03:24.342+0545] {processor.py:161} INFO - Started process (PID=92658) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:03:24.345+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:03:24.345+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:24.345+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:03:24.349+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:03:24.361+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:24.361+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:03:24.366+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:24.366+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:03:24.379+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.040 seconds
+[2026-07-20T21:04:26.270+0545] {processor.py:161} INFO - Started process (PID=93262) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:04:26.273+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:04:26.275+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:26.274+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:04:26.282+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:04:26.294+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:26.294+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:04:26.299+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:26.299+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:04:26.311+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2026-07-20T21:05:31.156+0545] {processor.py:161} INFO - Started process (PID=93899) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:05:31.160+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:05:31.161+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:31.160+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:05:31.166+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:05:31.178+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:31.178+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:05:31.183+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:31.183+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:05:31.196+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T21:06:30.832+0545] {processor.py:161} INFO - Started process (PID=94447) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:06:30.835+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:06:30.835+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:30.835+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:06:30.840+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:06:30.853+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:30.853+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:06:30.859+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:30.859+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:06:30.873+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T21:07:33.594+0545] {processor.py:161} INFO - Started process (PID=95083) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:07:33.596+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:07:33.597+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:33.597+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:07:33.601+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:07:33.613+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:33.613+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:07:33.618+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:33.618+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:07:33.631+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.041 seconds
+[2026-07-20T21:08:36.388+0545] {processor.py:161} INFO - Started process (PID=95681) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:08:36.391+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:08:36.392+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:36.391+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:08:36.397+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:08:36.409+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:36.409+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:08:36.414+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:36.414+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:08:36.426+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.042 seconds
+[2026-07-20T21:09:40.294+0545] {processor.py:161} INFO - Started process (PID=96312) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:09:40.297+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:09:40.298+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:40.298+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:09:40.302+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:09:40.314+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:40.314+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:09:40.319+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:40.319+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:09:40.331+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.040 seconds
+[2026-07-20T21:10:38.773+0545] {processor.py:161} INFO - Started process (PID=96863) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:10:38.776+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:10:38.777+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:38.777+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:10:38.782+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:10:38.795+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:38.795+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:10:38.800+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:38.799+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:10:38.812+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T21:11:36.719+0545] {processor.py:161} INFO - Started process (PID=97461) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:11:36.722+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:11:36.722+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:36.722+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:11:36.729+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:11:36.741+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:36.740+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:11:36.745+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:36.745+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:11:36.758+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T21:12:38.650+0545] {processor.py:161} INFO - Started process (PID=98027) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:12:38.653+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:12:38.654+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:38.654+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:12:38.660+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:12:38.672+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:38.671+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:12:38.677+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:38.677+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:12:38.689+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T21:24:47.420+0545] {processor.py:161} INFO - Started process (PID=99044) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:24:47.500+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T21:24:47.502+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:47.501+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:24:47.516+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T21:24:47.554+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:47.553+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T21:24:47.568+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:24:47.567+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T21:24:47.606+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.192 seconds
+[2026-07-20T11:32:15.963+0545] {processor.py:161} INFO - Started process (PID=28449) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:32:15.967+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:32:15.969+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:15.968+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:32:15.982+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:32:16.020+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:16.020+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:32:16.032+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:16.032+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:32:16.057+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2026-07-20T11:33:12.348+0545] {processor.py:161} INFO - Started process (PID=29023) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:33:12.351+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:33:12.353+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:12.352+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:33:12.366+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:33:12.394+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:12.394+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:33:12.406+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:12.406+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:33:12.430+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.091 seconds
+[2026-07-20T11:36:39.386+0545] {processor.py:161} INFO - Started process (PID=31309) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:36:39.390+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:36:39.391+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:39.391+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:36:39.403+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:36:39.440+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:39.440+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:36:39.453+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:39.453+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:36:39.478+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2026-07-20T11:37:32.644+0545] {processor.py:161} INFO - Started process (PID=32071) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:37:32.648+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:37:32.650+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:32.649+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:37:32.661+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:37:32.694+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:32.694+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:37:32.705+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:32.705+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:37:32.733+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2026-07-20T11:38:40.931+0545] {processor.py:161} INFO - Started process (PID=32788) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:38:40.933+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:38:40.934+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:40.934+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:38:40.948+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:38:40.976+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:40.976+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:38:40.990+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:40.989+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:38:41.017+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2026-07-20T11:39:37.854+0545] {processor.py:161} INFO - Started process (PID=33340) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:39:37.858+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:39:37.860+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:37.859+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:39:37.874+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:39:37.911+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:37.911+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:39:37.925+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:37.925+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:39:37.960+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-07-20T11:40:49.768+0545] {processor.py:161} INFO - Started process (PID=34067) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:40:49.772+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:40:49.774+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:49.773+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:40:49.787+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:40:49.822+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:49.821+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:40:49.833+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:49.833+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:40:49.860+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2026-07-20T11:41:59.851+0545] {processor.py:161} INFO - Started process (PID=34743) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:41:59.856+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:41:59.857+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:59.857+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:41:59.870+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:41:59.905+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:59.905+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:41:59.917+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:59.917+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:41:59.944+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2026-07-20T11:43:10.349+0545] {processor.py:161} INFO - Started process (PID=35481) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:43:10.353+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:43:10.354+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.354+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:43:10.368+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:43:10.403+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.403+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:43:10.416+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:10.416+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:43:10.447+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2026-07-20T11:44:17.845+0545] {processor.py:161} INFO - Started process (PID=36139) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:44:17.850+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:44:17.852+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:17.851+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:44:17.867+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:44:17.900+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:17.900+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:44:17.914+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:44:17.914+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:44:17.943+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2026-07-20T11:45:32.518+0545] {processor.py:161} INFO - Started process (PID=36911) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:45:32.522+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:45:32.524+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:32.523+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:45:32.536+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:45:32.565+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:32.565+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:45:32.576+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:32.575+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:45:32.598+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.087 seconds
+[2026-07-20T11:52:54.833+0545] {processor.py:161} INFO - Started process (PID=43524) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:52:54.837+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:52:54.838+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:54.837+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:52:54.844+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:52:54.856+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:54.856+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:52:54.861+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:54.861+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:52:54.874+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T11:53:44.943+0545] {processor.py:161} INFO - Started process (PID=44025) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:53:44.946+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:53:44.946+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:44.946+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:53:44.951+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:53:44.964+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:44.964+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:53:44.970+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:44.970+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:53:44.984+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T11:55:38.185+0545] {processor.py:161} INFO - Started process (PID=45404) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:55:38.189+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:55:38.190+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:38.189+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:55:38.196+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:55:38.210+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:38.210+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:55:38.217+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:38.217+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:55:38.232+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2026-07-20T11:56:29.937+0545] {processor.py:161} INFO - Started process (PID=45840) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:56:29.940+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:56:29.941+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:29.940+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:56:29.945+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:56:29.960+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:29.960+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:56:29.966+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:29.966+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:56:29.980+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T11:57:30.602+0545] {processor.py:161} INFO - Started process (PID=46415) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:57:30.605+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:57:30.606+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:30.605+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:57:30.610+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:57:30.624+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:30.623+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:57:30.630+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:30.629+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:57:30.727+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.130 seconds
+[2026-07-20T11:58:36.417+0545] {processor.py:161} INFO - Started process (PID=47091) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:58:36.420+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T11:58:36.421+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:36.421+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:58:36.426+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T11:58:36.439+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:36.439+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T11:58:36.446+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:36.446+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T11:58:36.460+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T12:02:36.469+0545] {processor.py:161} INFO - Started process (PID=48137) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:02:36.472+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:02:36.473+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:36.473+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:02:36.478+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:02:36.492+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:36.492+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:02:36.498+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:02:36.498+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:02:36.513+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T12:03:28.827+0545] {processor.py:161} INFO - Started process (PID=48648) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:03:28.830+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:03:28.831+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:28.831+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:03:28.836+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:03:28.849+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:28.849+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:03:28.855+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:28.855+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:03:28.867+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T12:04:31.659+0545] {processor.py:161} INFO - Started process (PID=49294) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:04:31.662+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:04:31.662+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:31.662+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:04:31.667+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:04:31.682+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:31.681+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:04:31.687+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:31.687+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:04:31.701+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:05:33.502+0545] {processor.py:161} INFO - Started process (PID=49908) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:05:33.515+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:05:33.516+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:33.516+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:05:33.523+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:05:33.538+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:33.538+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:05:33.543+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:33.543+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:05:33.566+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2026-07-20T12:09:22.302+0545] {processor.py:161} INFO - Started process (PID=55152) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:09:22.305+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:09:22.306+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:22.305+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:09:22.311+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:09:22.326+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:22.326+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:09:22.333+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:22.333+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:09:22.349+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2026-07-20T12:10:15.139+0545] {processor.py:161} INFO - Started process (PID=55771) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:10:15.142+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:10:15.143+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:15.143+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:10:15.148+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:10:15.161+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:15.160+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:10:15.165+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:15.165+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:10:15.178+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T12:12:10.904+0545] {processor.py:161} INFO - Started process (PID=57276) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:12:10.907+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:12:10.907+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:10.907+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:12:10.913+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:12:10.927+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:10.927+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:12:10.933+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:10.933+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:12:10.946+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:13:08.908+0545] {processor.py:161} INFO - Started process (PID=57808) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:13:08.911+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:13:08.912+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:08.911+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:13:08.916+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:13:08.931+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:08.930+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:13:08.936+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:08.936+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:13:08.950+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:14:01.741+0545] {processor.py:161} INFO - Started process (PID=58329) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:14:01.744+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:14:01.745+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:01.745+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:14:01.749+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:14:01.763+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:01.763+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:14:01.845+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:01.845+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:14:01.860+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.122 seconds
+[2026-07-20T12:15:06.634+0545] {processor.py:161} INFO - Started process (PID=58936) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:15:06.637+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:15:06.638+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:06.638+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:15:06.645+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:15:06.658+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:06.658+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:15:06.665+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:06.664+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:15:06.678+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2026-07-20T12:16:07.729+0545] {processor.py:161} INFO - Started process (PID=59500) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:16:07.732+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:16:07.732+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:07.732+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:16:07.737+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:16:07.751+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:07.751+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:16:07.757+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:07.757+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:16:07.770+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T12:17:10.217+0545] {processor.py:161} INFO - Started process (PID=60108) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:17:10.220+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:17:10.220+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:10.220+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:17:10.225+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:17:10.239+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:10.239+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:17:10.245+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:10.245+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:17:10.259+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:18:11.365+0545] {processor.py:161} INFO - Started process (PID=60690) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:18:11.368+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:18:11.369+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.369+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:18:11.374+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:18:11.388+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.387+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:18:11.394+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:11.394+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:18:11.408+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T12:19:15.022+0545] {processor.py:161} INFO - Started process (PID=61289) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:19:15.025+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:19:15.026+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:15.026+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:19:15.030+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:19:15.044+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:15.044+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:19:15.050+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:15.050+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:19:15.064+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:20:11.371+0545] {processor.py:161} INFO - Started process (PID=61833) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:20:11.374+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:20:11.375+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:11.374+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:20:11.379+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:20:11.393+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:11.392+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:20:11.398+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:11.398+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:20:11.411+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T12:21:10.621+0545] {processor.py:161} INFO - Started process (PID=62384) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:21:10.624+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:21:10.625+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:10.624+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:21:10.630+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:21:10.644+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:10.644+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:21:10.650+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:10.650+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:21:10.666+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2026-07-20T12:22:13.477+0545] {processor.py:161} INFO - Started process (PID=62971) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:22:13.478+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:22:13.479+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:13.478+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:22:13.483+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:22:13.498+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:13.498+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:22:13.504+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:13.504+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:22:13.517+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T12:23:16.237+0545] {processor.py:161} INFO - Started process (PID=63557) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:23:16.240+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:23:16.241+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:16.241+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:23:16.246+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:23:16.260+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:16.260+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:23:16.265+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:23:16.265+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:23:16.279+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T12:24:22.322+0545] {processor.py:161} INFO - Started process (PID=64164) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:24:22.325+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:24:22.325+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:22.325+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:24:22.330+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:24:22.344+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:22.344+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:24:22.350+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:22.350+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:24:22.364+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T12:25:26.860+0545] {processor.py:161} INFO - Started process (PID=64817) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:25:26.863+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:25:26.864+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:26.863+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:25:26.869+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:25:26.883+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:26.883+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:25:26.889+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:26.889+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:25:26.903+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T12:26:28.487+0545] {processor.py:161} INFO - Started process (PID=65405) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:26:28.491+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:26:28.492+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:28.491+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:26:28.497+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:26:28.511+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:28.511+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:26:28.517+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:28.517+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:26:28.531+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2026-07-20T12:27:30.432+0545] {processor.py:161} INFO - Started process (PID=65995) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:27:30.435+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:27:30.435+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:30.435+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:27:30.440+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:27:30.454+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:30.454+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:27:30.460+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:30.459+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:27:30.473+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T12:28:34.603+0545] {processor.py:161} INFO - Started process (PID=66603) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:28:34.606+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:28:34.606+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:34.606+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:28:34.611+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:28:34.625+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:34.624+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:28:34.630+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:34.630+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:28:34.653+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2026-07-20T12:29:35.573+0545] {processor.py:161} INFO - Started process (PID=67185) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:29:35.574+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T12:29:35.575+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:35.574+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:29:35.579+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T12:29:35.592+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:35.592+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T12:29:35.598+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:35.598+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T12:29:35.612+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-21T00:03:18.480+0545] {processor.py:161} INFO - Started process (PID=68377) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:03:18.483+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-21T00:03:18.484+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:18.483+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:03:18.488+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:03:18.502+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:18.502+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:03:18.509+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:18.509+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-21T00:03:18.522+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-21T00:04:17.842+0545] {processor.py:161} INFO - Started process (PID=69048) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:04:17.845+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-21T00:04:17.845+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:17.845+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:04:17.850+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-21T00:04:17.865+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:17.864+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-21T00:04:17.871+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:17.870+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-21T00:04:17.887+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
+[2026-07-20T13:23:42.091+0545] {processor.py:161} INFO - Started process (PID=109088) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:23:42.093+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:23:42.093+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:42.093+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:23:42.098+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:23:42.111+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:42.111+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:23:42.117+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:42.117+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:23:42.131+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T13:24:44.928+0545] {processor.py:161} INFO - Started process (PID=109663) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:24:44.931+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:24:44.931+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:44.931+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:24:44.936+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:24:44.950+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:44.950+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:24:44.956+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:44.956+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:24:44.969+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T13:25:49.697+0545] {processor.py:161} INFO - Started process (PID=110235) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:25:49.700+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:25:49.700+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:49.700+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:25:49.705+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:25:49.719+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:49.719+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:25:49.724+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:49.724+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:25:49.738+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T13:26:42.327+0545] {processor.py:161} INFO - Started process (PID=110721) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:26:42.327+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:26:42.328+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:42.328+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:26:42.333+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:26:42.346+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:42.346+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:26:42.352+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:42.352+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:26:42.366+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.042 seconds
+[2026-07-20T13:27:52.862+0545] {processor.py:161} INFO - Started process (PID=111339) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:27:52.865+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:27:52.866+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:52.866+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:27:52.871+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:27:52.884+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:52.884+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:27:52.890+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:52.890+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:27:52.904+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.045 seconds
+[2026-07-20T13:28:55.505+0545] {processor.py:161} INFO - Started process (PID=111928) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:28:55.508+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:28:55.509+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:55.509+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:28:55.514+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:28:55.528+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:55.527+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:28:55.534+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:55.534+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:28:55.548+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T13:29:54.971+0545] {processor.py:161} INFO - Started process (PID=112482) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:29:54.974+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:29:54.975+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:54.974+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:29:54.980+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:29:54.995+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:54.994+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:29:55.001+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:55.001+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:29:55.016+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2026-07-20T13:31:00.875+0545] {processor.py:161} INFO - Started process (PID=113094) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:31:00.878+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:31:00.878+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:00.878+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:31:00.883+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:31:00.898+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:00.898+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:31:00.904+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:00.904+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:31:00.918+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T13:32:03.761+0545] {processor.py:161} INFO - Started process (PID=113664) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:32:03.765+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:32:03.765+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:03.765+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:32:03.771+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:32:03.785+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:03.785+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:32:03.790+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:03.790+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:32:03.804+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2026-07-20T13:33:06.432+0545] {processor.py:161} INFO - Started process (PID=114240) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:33:06.435+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:33:06.436+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:06.435+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:33:06.440+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:33:06.454+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:06.454+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:33:06.460+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:06.460+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:33:06.474+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T13:34:07.117+0545] {processor.py:161} INFO - Started process (PID=114784) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:34:07.119+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:34:07.120+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:07.120+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:34:07.125+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:34:07.139+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:07.139+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:34:07.146+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:07.146+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:34:07.160+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
+[2026-07-20T13:35:09.108+0545] {processor.py:161} INFO - Started process (PID=115334) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:35:09.111+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:35:09.112+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:09.111+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:35:09.117+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:35:09.131+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:09.131+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:35:09.137+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:09.137+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:35:09.152+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2026-07-20T13:36:11.084+0545] {processor.py:161} INFO - Started process (PID=115900) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:36:11.087+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:36:11.088+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:11.087+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:36:11.093+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:36:11.107+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:11.107+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:36:11.113+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:11.112+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:36:11.127+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2026-07-20T13:37:14.861+0545] {processor.py:161} INFO - Started process (PID=116458) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:37:14.864+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:37:14.864+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:14.864+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:37:14.869+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:37:14.884+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:14.884+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:37:14.889+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:14.889+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:37:14.904+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T13:38:19.488+0545] {processor.py:161} INFO - Started process (PID=117031) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:38:19.491+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:38:19.492+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:19.492+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:38:19.497+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:38:19.510+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:19.510+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:38:19.516+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:38:19.516+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:38:19.531+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.046 seconds
+[2026-07-20T13:39:19.941+0545] {processor.py:161} INFO - Started process (PID=117584) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:39:19.944+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:39:19.945+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:19.945+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:39:19.950+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:39:19.963+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:19.963+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:39:19.969+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:19.969+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:39:19.983+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2026-07-20T13:40:18.770+0545] {processor.py:161} INFO - Started process (PID=118135) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:40:18.773+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:40:18.774+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:18.773+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:40:18.779+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:40:18.792+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:18.792+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:40:18.798+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:18.798+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:40:18.813+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2026-07-20T13:41:19.671+0545] {processor.py:161} INFO - Started process (PID=118700) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:41:19.674+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:41:19.675+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:19.674+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:41:19.679+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:41:19.691+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:19.691+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:41:19.697+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:19.697+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:41:19.710+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.042 seconds
+[2026-07-20T13:42:22.718+0545] {processor.py:161} INFO - Started process (PID=119291) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:42:22.721+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:42:22.721+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:22.721+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:42:22.727+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:42:22.739+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:22.738+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:42:22.744+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:22.743+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:42:22.757+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.043 seconds
+[2026-07-20T13:43:25.171+0545] {processor.py:161} INFO - Started process (PID=119878) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:43:25.174+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-07-20T13:43:25.176+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:25.175+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:43:25.188+0545] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-07-20T13:43:25.220+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:25.219+0545] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-20T13:43:25.232+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:25.231+0545] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-07-20T13:43:25.257+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds

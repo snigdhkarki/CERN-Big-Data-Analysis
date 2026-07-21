@@ -1,0 +1,72 @@
+[2026-07-20T12:42:15.918+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-20T12:42:15.936+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.write_shards.write_seq_shards manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:42:15.944+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.write_shards.write_seq_shards manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:42:15.944+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-20T12:42:15.956+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): write_shards.write_seq_shards> on 2026-07-20 06:51:36.359976+00:00
+[2026-07-20T12:42:15.961+0545] {standard_task_runner.py:64} INFO - Started process 76969 to run task
+[2026-07-20T12:42:15.964+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'write_shards.write_seq_shards', 'manual__2026-07-20T06:51:36.359976+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmp7p9vizrf']
+[2026-07-20T12:42:15.965+0545] {standard_task_runner.py:91} INFO - Job 107: Subtask write_shards.write_seq_shards
+[2026-07-20T12:42:15.995+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.write_shards.write_seq_shards manual__2026-07-20T06:51:36.359976+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-20T12:42:16.049+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='write_shards.write_seq_shards' AIRFLOW_CTX_EXECUTION_DATE='2026-07-20T06:51:36.359976+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-20T06:51:36.359976+00:00'
+[2026-07-20T12:42:16.050+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-20T12:42:16.051+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-20T12:42:16.051+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose exec spark-master /opt/spark/bin/spark-submit --master spark://localhost:7077 --py-files /app/common.py --conf spark.ui.port=4040 --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog /app/task_write_seq_shards.py']
+[2026-07-20T12:42:16.061+0545] {subprocess.py:86} INFO - Output:
+[2026-07-20T12:42:28.359+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SparkContext: Running Spark version 3.5.0
+[2026-07-20T12:42:28.360+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SparkContext: OS info Linux, 6.8.0-136-generic, amd64
+[2026-07-20T12:42:28.361+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SparkContext: Java version 11.0.20.1
+[2026-07-20T12:42:28.540+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceUtils: ==============================================================
+[2026-07-20T12:42:28.541+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-07-20T12:42:28.541+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceUtils: ==============================================================
+[2026-07-20T12:42:28.542+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SparkContext: Submitted application: anomaly_write_seq_shards
+[2026-07-20T12:42:28.647+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-07-20T12:42:28.655+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceProfile: Limiting resource is cpu
+[2026-07-20T12:42:28.656+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-07-20T12:42:28.846+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SecurityManager: Changing view acls to: spark
+[2026-07-20T12:42:28.846+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SecurityManager: Changing modify acls to: spark
+[2026-07-20T12:42:28.846+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SecurityManager: Changing view acls groups to:
+[2026-07-20T12:42:28.847+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SecurityManager: Changing modify acls groups to:
+[2026-07-20T12:42:28.847+0545] {subprocess.py:93} INFO - 26/07/20 06:57:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-07-20T12:42:29.547+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO Utils: Successfully started service 'sparkDriver' on port 40179.
+[2026-07-20T12:42:29.650+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO SparkEnv: Registering MapOutputTracker
+[2026-07-20T12:42:29.846+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO SparkEnv: Registering BlockManagerMaster
+[2026-07-20T12:42:29.859+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-07-20T12:42:29.860+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-07-20T12:42:29.937+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-07-20T12:42:29.953+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-3d7f908f-1f6a-46c1-ab36-6621a7caed2e
+[2026-07-20T12:42:29.963+0545] {subprocess.py:93} INFO - 26/07/20 06:57:29 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2026-07-20T12:42:30.049+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-07-20T12:42:30.337+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-07-20T12:42:30.441+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-07-20T12:42:30.550+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO SparkContext: Added file file:///app/common.py at spark://e6ba47dbf3fb:40179/files/common.py with timestamp 1784530648350
+[2026-07-20T12:42:30.550+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO Utils: Copying /app/common.py to /tmp/spark-494ff4e1-07b1-428a-ab1b-6ddad83a9b8d/userFiles-83b71d2e-92a4-42a5-a012-9e8790cfcc8c/common.py
+[2026-07-20T12:42:30.956+0545] {subprocess.py:93} INFO - 26/07/20 06:57:30 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://localhost:7077...
+[2026-07-20T12:42:31.251+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:7077 after 106 ms (0 ms spent in bootstraps)
+[2026-07-20T12:42:31.545+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260720065731-0003
+[2026-07-20T12:42:31.636+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720065731-0003/0 on worker-20260720065158-spark-worker1-8081 (spark-worker1:8081) with 1 core(s)
+[2026-07-20T12:42:31.640+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720065731-0003/0 on hostPort spark-worker1:8081 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T12:42:31.640+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720065731-0003/1 on worker-20260720065158-spark-worker2-8083 (spark-worker2:8083) with 1 core(s)
+[2026-07-20T12:42:31.641+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720065731-0003/1 on hostPort spark-worker2:8083 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T12:42:31.644+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46337.
+[2026-07-20T12:42:31.645+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO NettyBlockTransferService: Server created on e6ba47dbf3fb:46337
+[2026-07-20T12:42:31.647+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-07-20T12:42:31.742+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, e6ba47dbf3fb, 46337, None)
+[2026-07-20T12:42:31.745+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO BlockManagerMasterEndpoint: Registering block manager e6ba47dbf3fb:46337 with 413.9 MiB RAM, BlockManagerId(driver, e6ba47dbf3fb, 46337, None)
+[2026-07-20T12:42:31.745+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720065731-0003/0 is now RUNNING
+[2026-07-20T12:42:31.746+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720065731-0003/1 is now RUNNING
+[2026-07-20T12:42:31.747+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, e6ba47dbf3fb, 46337, None)
+[2026-07-20T12:42:31.748+0545] {subprocess.py:93} INFO - 26/07/20 06:57:31 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, e6ba47dbf3fb, 46337, None)
+[2026-07-20T12:42:32.450+0545] {subprocess.py:93} INFO - 26/07/20 06:57:32 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-07-20T12:43:05.945+0545] {subprocess.py:93} INFO - 26/07/20 06:58:05 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2026-07-20T12:43:50.443+0545] {subprocess.py:93} INFO - 26/07/20 06:58:50 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-20T12:43:50.444+0545] {subprocess.py:93} INFO - 26/07/20 06:58:50 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-20T12:43:50.445+0545] {subprocess.py:93} INFO - 26/07/20 06:58:50 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-20T12:43:54.739+0545] {subprocess.py:93} INFO - 26/07/20 06:58:54 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-20T12:43:54.740+0545] {subprocess.py:93} INFO - 26/07/20 06:58:54 WARN WindowExec: No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+[2026-07-20T12:43:58.653+0545] {subprocess.py:93} INFO - [Driver] Wrote 2 contiguous ID-ordered shards (10000 rows) -> hdfs://namenode:9000/user/demo/_torch_seq_shards
+[2026-07-20T12:44:00.635+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-20T12:44:00.636+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-20T12:44:00.651+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=write_shards.write_seq_shards, run_id=manual__2026-07-20T06:51:36.359976+00:00, execution_date=20260720T065136, start_date=20260720T065715, end_date=20260720T065900
+[2026-07-20T12:44:00.687+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-20T12:44:00.704+0545] {taskinstance.py:3503} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-07-20T12:44:00.708+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

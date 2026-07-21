@@ -1,0 +1,979 @@
+[2026-07-20T20:50:53.187+0545] {processor.py:161} INFO - Started process (PID=85446) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:50:53.187+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:50:53.188+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:53.187+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:50:53.189+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:53.189+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:50:53.189+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:50:53.189+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:50:53.189+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:50:53.195+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.012 seconds
+[2026-07-20T20:51:43.354+0545] {processor.py:161} INFO - Started process (PID=85883) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:51:43.357+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:51:43.358+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:43.358+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:51:43.360+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:43.360+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:51:43.361+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:51:43.361+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:51:43.361+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:51:43.366+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T20:52:45.034+0545] {processor.py:161} INFO - Started process (PID=86499) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:52:45.106+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:52:45.107+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:45.106+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:52:45.112+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:45.111+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:52:45.112+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:52:45.112+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:52:45.112+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:52:45.120+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.092 seconds
+[2026-07-20T20:53:45.833+0545] {processor.py:161} INFO - Started process (PID=87109) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:53:45.836+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:53:45.837+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:45.837+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:53:45.839+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:45.839+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:53:45.840+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:53:45.840+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:53:45.840+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:53:45.846+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T20:54:38.456+0545] {processor.py:161} INFO - Started process (PID=87572) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:54:38.460+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:54:38.460+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:38.460+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:54:38.463+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:38.462+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:54:38.463+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:54:38.463+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:54:38.463+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:54:38.470+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T20:55:45.924+0545] {processor.py:161} INFO - Started process (PID=88240) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:55:45.927+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:55:45.928+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:45.927+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:55:45.929+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:45.929+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:55:45.929+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:55:45.929+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:55:45.930+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:55:45.935+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T20:56:45.718+0545] {processor.py:161} INFO - Started process (PID=88792) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:56:45.721+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:56:45.722+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:45.722+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:56:45.724+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:45.724+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:56:45.724+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:56:45.724+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:56:45.725+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:56:45.730+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T20:57:51.715+0545] {processor.py:161} INFO - Started process (PID=89470) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:57:51.719+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:57:51.720+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:51.719+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:57:51.722+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:51.722+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:57:51.723+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:57:51.723+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:57:51.723+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:57:51.729+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T20:58:54.363+0545] {processor.py:161} INFO - Started process (PID=90081) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:58:54.367+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:58:54.368+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:54.367+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:58:54.370+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:54.370+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:58:54.370+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:58:54.370+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:58:54.370+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:58:54.376+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T20:59:55.857+0545] {processor.py:161} INFO - Started process (PID=90672) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:59:55.860+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T20:59:55.861+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:55.861+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:59:55.864+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:55.863+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T20:59:55.864+0545] {logging_mixin.py:188} INFO - [2026-07-20T20:59:55.864+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T20:59:55.864+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T20:59:55.870+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T21:00:56.543+0545] {processor.py:161} INFO - Started process (PID=91241) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:00:56.544+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:00:56.545+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:56.544+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:00:56.547+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:56.546+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:00:56.547+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:00:56.547+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:00:56.547+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:00:56.553+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T21:01:58.529+0545] {processor.py:161} INFO - Started process (PID=91838) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:01:58.532+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:01:58.533+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:58.532+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:01:58.534+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:58.534+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:01:58.534+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:01:58.534+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:01:58.535+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:01:58.540+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T21:03:02.623+0545] {processor.py:161} INFO - Started process (PID=92435) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:03:02.627+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:03:02.628+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:02.627+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:03:02.631+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:02.630+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:03:02.631+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:03:02.631+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:03:02.631+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:03:02.637+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T21:04:04.381+0545] {processor.py:161} INFO - Started process (PID=93034) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:04:04.384+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:04:04.385+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:04.385+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:04:04.388+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:04.387+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:04:04.388+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:04:04.388+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:04:04.388+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:04:04.394+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T21:05:11.682+0545] {processor.py:161} INFO - Started process (PID=93686) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:05:11.685+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:05:11.686+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:11.686+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:05:11.688+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:11.687+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:05:11.688+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:05:11.688+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:05:11.688+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:05:11.694+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T21:06:12.330+0545] {processor.py:161} INFO - Started process (PID=94253) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:06:12.333+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:06:12.333+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:12.333+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:06:12.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:12.335+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:06:12.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:06:12.335+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:06:12.335+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:06:12.340+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.013 seconds
+[2026-07-20T21:07:11.683+0545] {processor.py:161} INFO - Started process (PID=94837) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:07:11.687+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:07:11.687+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:11.687+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:07:11.689+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:11.689+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:07:11.690+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:07:11.689+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:07:11.690+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:07:11.695+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T21:08:15.824+0545] {processor.py:161} INFO - Started process (PID=95470) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:08:15.826+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:08:15.827+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:15.827+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:08:15.828+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:15.828+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:08:15.829+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:08:15.829+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:08:15.829+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:08:15.835+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T21:09:20.102+0545] {processor.py:161} INFO - Started process (PID=96150) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:09:20.103+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:09:20.104+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:20.103+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:09:20.105+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:20.105+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:09:20.105+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:09:20.105+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:09:20.105+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:09:20.110+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.011 seconds
+[2026-07-20T21:10:19.253+0545] {processor.py:161} INFO - Started process (PID=96728) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:10:19.256+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:10:19.258+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:19.258+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:10:19.262+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:19.262+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:10:19.263+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:10:19.263+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:10:19.263+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:10:19.269+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2026-07-20T21:11:19.021+0545] {processor.py:161} INFO - Started process (PID=97313) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:11:19.024+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:11:19.025+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:19.024+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:11:19.026+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:19.026+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:11:19.026+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:11:19.026+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:11:19.026+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:11:19.032+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T21:12:15.882+0545] {processor.py:161} INFO - Started process (PID=97807) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:12:15.885+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:12:15.885+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:15.885+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:12:15.887+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:15.886+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:12:15.887+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:12:15.887+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:12:15.887+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:12:15.892+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.013 seconds
+[2026-07-20T21:13:19.996+0545] {processor.py:161} INFO - Started process (PID=98468) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:13:19.997+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:13:19.998+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:19.997+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:13:20.000+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:19.999+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:13:20.000+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:13:20.000+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:13:20.000+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:13:20.005+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T21:25:23.662+0545] {processor.py:161} INFO - Started process (PID=99843) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:25:23.666+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T21:25:23.667+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:25:23.667+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:25:23.672+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:25:23.671+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T21:25:23.673+0545] {logging_mixin.py:188} INFO - [2026-07-20T21:25:23.673+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T21:25:23.673+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T21:25:23.687+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2026-07-20T11:32:09.692+0545] {processor.py:161} INFO - Started process (PID=28399) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:32:09.696+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:32:09.698+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:09.697+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:32:09.703+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:09.702+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:32:09.703+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:32:09.703+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:32:09.704+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:32:09.720+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.036 seconds
+[2026-07-20T11:33:06.403+0545] {processor.py:161} INFO - Started process (PID=28973) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:33:06.407+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:33:06.408+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:06.408+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:33:06.414+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:06.412+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:33:06.414+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:33:06.414+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:33:06.414+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:33:06.430+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.036 seconds
+[2026-07-20T11:36:33.728+0545] {processor.py:161} INFO - Started process (PID=31200) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:36:33.732+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:36:33.733+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:33.733+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:36:33.738+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:33.737+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:36:33.738+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:36:33.738+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:36:33.738+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:36:33.752+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2026-07-20T11:37:25.774+0545] {processor.py:161} INFO - Started process (PID=32019) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:37:25.778+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:37:25.780+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:25.779+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:37:25.785+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:25.784+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:37:25.786+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:37:25.786+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:37:25.786+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:37:25.804+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.038 seconds
+[2026-07-20T11:38:18.217+0545] {processor.py:161} INFO - Started process (PID=32551) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:38:18.221+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:38:18.222+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:18.222+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:38:18.227+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:18.226+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:38:18.227+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:38:18.227+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:38:18.227+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:38:18.242+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds
+[2026-07-20T11:39:30.620+0545] {processor.py:161} INFO - Started process (PID=33234) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:39:30.625+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:39:30.626+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:30.625+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:39:30.631+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:30.630+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:39:30.631+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:39:30.631+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:39:30.631+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:39:30.646+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2026-07-20T11:40:21.145+0545] {processor.py:161} INFO - Started process (PID=33758) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:40:21.149+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:40:21.150+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:21.150+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:40:21.156+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:21.154+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:40:21.156+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:40:21.156+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:40:21.157+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:40:21.175+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-07-20T11:41:33.908+0545] {processor.py:161} INFO - Started process (PID=34471) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:41:33.912+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:41:33.914+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:33.913+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:41:33.919+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:33.918+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:41:33.920+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:41:33.920+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:41:33.920+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:41:33.936+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.038 seconds
+[2026-07-20T11:42:44.283+0545] {processor.py:161} INFO - Started process (PID=35222) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:42:44.287+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:42:44.289+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:44.288+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:42:44.294+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:44.293+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:42:44.294+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:42:44.294+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:42:44.295+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:42:44.312+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.038 seconds
+[2026-07-20T11:43:52.559+0545] {processor.py:161} INFO - Started process (PID=35877) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:43:52.563+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:43:52.564+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:52.564+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:43:52.569+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:52.568+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:43:52.569+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:43:52.569+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:43:52.570+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:43:52.584+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2026-07-20T11:45:06.334+0545] {processor.py:161} INFO - Started process (PID=36613) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:06.338+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:45:06.340+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:06.339+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:06.345+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:06.344+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:45:06.346+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:06.346+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:45:06.346+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:06.363+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.037 seconds
+[2026-07-20T11:45:58.612+0545] {processor.py:161} INFO - Started process (PID=37194) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:58.616+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:45:58.617+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:58.617+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:58.622+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:58.621+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:45:58.622+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:45:58.622+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:45:58.622+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:45:58.636+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.031 seconds
+[2026-07-20T11:52:48.491+0545] {processor.py:161} INFO - Started process (PID=43476) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:52:48.495+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:52:48.495+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:48.495+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:52:48.497+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:48.496+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:52:48.497+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:52:48.497+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:52:48.497+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:52:48.502+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T11:53:39.804+0545] {processor.py:161} INFO - Started process (PID=43989) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:53:39.808+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:53:39.809+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:39.808+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:53:39.811+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:39.810+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:53:39.811+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:53:39.811+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:53:39.811+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:53:39.817+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T11:55:32.641+0545] {processor.py:161} INFO - Started process (PID=45343) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:55:32.642+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:55:32.643+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:32.643+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:55:32.645+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:32.644+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:55:32.645+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:55:32.645+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:55:32.645+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:55:32.651+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.013 seconds
+[2026-07-20T11:56:24.220+0545] {processor.py:161} INFO - Started process (PID=45796) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:56:24.223+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:56:24.224+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:24.224+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:56:24.226+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:24.225+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:56:24.226+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:56:24.226+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:56:24.226+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:56:24.233+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T11:57:25.017+0545] {processor.py:161} INFO - Started process (PID=46377) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:57:25.020+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:57:25.021+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:25.020+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:57:25.023+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:25.022+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:57:25.023+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:57:25.023+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:57:25.023+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:57:25.030+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T11:58:17.161+0545] {processor.py:161} INFO - Started process (PID=46876) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:58:17.164+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:58:17.165+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:17.165+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:58:17.167+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:17.167+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:58:17.168+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:58:17.168+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:58:17.168+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:58:17.174+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T11:59:17.740+0545] {processor.py:161} INFO - Started process (PID=47555) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:59:17.743+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T11:59:17.744+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:17.743+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:59:17.746+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:17.745+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T11:59:17.746+0545] {logging_mixin.py:188} INFO - [2026-07-20T11:59:17.746+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T11:59:17.746+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T11:59:17.752+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T12:03:04.164+0545] {processor.py:161} INFO - Started process (PID=48438) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:03:04.166+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:03:04.167+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:04.167+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:03:04.169+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:04.168+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:03:04.169+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:03:04.169+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:03:04.169+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:03:04.175+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T12:04:04.842+0545] {processor.py:161} INFO - Started process (PID=49034) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:04:04.845+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:04:04.845+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:04.845+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:04:04.848+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:04.847+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:04:04.848+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:04:04.848+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:04:04.848+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:04:04.854+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T12:05:08.375+0545] {processor.py:161} INFO - Started process (PID=49636) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:05:08.378+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:05:08.379+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:08.379+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:05:08.381+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:08.380+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:05:08.381+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:05:08.381+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:05:08.381+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:05:08.389+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T12:09:16.572+0545] {processor.py:161} INFO - Started process (PID=55100) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:09:16.575+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:09:16.576+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:16.576+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:09:16.579+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:16.578+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:09:16.579+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:09:16.579+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:09:16.579+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:09:16.586+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T12:10:08.842+0545] {processor.py:161} INFO - Started process (PID=55714) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:10:08.846+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:10:08.847+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:08.846+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:10:08.849+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:08.849+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:10:08.849+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:10:08.849+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:10:08.850+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:10:08.855+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T12:11:50.178+0545] {processor.py:161} INFO - Started process (PID=57044) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:11:50.181+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:11:50.182+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.182+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:11:50.185+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.184+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:11:50.185+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:11:50.185+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:11:50.185+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:11:50.190+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T12:12:54.606+0545] {processor.py:161} INFO - Started process (PID=57650) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:12:54.609+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:12:54.609+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:54.609+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:12:54.611+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:54.611+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:12:54.611+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:12:54.611+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:12:54.612+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:12:54.618+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:13:55.376+0545] {processor.py:161} INFO - Started process (PID=58242) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:13:55.379+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:13:55.380+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:55.380+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:13:55.383+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:55.382+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:13:55.383+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:13:55.383+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:13:55.383+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:13:55.389+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T12:14:46.052+0545] {processor.py:161} INFO - Started process (PID=58713) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:14:46.055+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:14:46.056+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:46.056+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:14:46.059+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:46.058+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:14:46.059+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:14:46.059+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:14:46.059+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:14:46.065+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T12:15:47.727+0545] {processor.py:161} INFO - Started process (PID=59309) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:15:47.728+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:15:47.729+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:47.729+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:15:47.731+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:47.731+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:15:47.731+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:15:47.731+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:15:47.732+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:15:47.738+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.014 seconds
+[2026-07-20T12:16:48.291+0545] {processor.py:161} INFO - Started process (PID=59878) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:16:48.294+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:16:48.295+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:48.295+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:16:48.298+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:48.297+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:16:48.298+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:16:48.298+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:16:48.299+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:16:48.305+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T12:17:49.992+0545] {processor.py:161} INFO - Started process (PID=60479) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:17:49.995+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:17:49.996+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:49.995+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:17:49.998+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:49.997+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:17:49.998+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:17:49.998+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:17:49.998+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:17:50.004+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:18:54.181+0545] {processor.py:161} INFO - Started process (PID=61072) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:18:54.184+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:18:54.185+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:54.184+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:18:54.186+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:54.186+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:18:54.187+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:18:54.186+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:18:54.187+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:18:54.193+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:19:54.487+0545] {processor.py:161} INFO - Started process (PID=61646) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:19:54.488+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:19:54.489+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:54.489+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:19:54.491+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:54.491+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:19:54.491+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:19:54.491+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:19:54.492+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:19:54.497+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:20:50.339+0545] {processor.py:161} INFO - Started process (PID=62177) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:20:50.342+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:20:50.343+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.343+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:20:50.345+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.345+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:20:50.345+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:20:50.345+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:20:50.345+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:20:50.351+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:21:52.172+0545] {processor.py:161} INFO - Started process (PID=62745) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:21:52.175+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:21:52.175+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:52.175+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:21:52.177+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:52.176+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:21:52.177+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:21:52.177+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:21:52.177+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:21:52.183+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T12:22:55.796+0545] {processor.py:161} INFO - Started process (PID=63347) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:22:55.800+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:22:55.800+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:55.800+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:22:55.803+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:55.802+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:22:55.803+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:22:55.803+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:22:55.803+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:22:55.810+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.018 seconds
+[2026-07-20T12:24:01.226+0545] {processor.py:161} INFO - Started process (PID=64012) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:24:01.231+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:24:01.232+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:01.231+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:24:01.234+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:01.234+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:24:01.234+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:24:01.234+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:24:01.234+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:24:01.241+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2026-07-20T12:25:07.631+0545] {processor.py:161} INFO - Started process (PID=64635) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:25:07.634+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:25:07.635+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:07.635+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:25:07.638+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:07.637+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:25:07.638+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:25:07.638+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:25:07.638+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:25:07.644+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T12:26:09.332+0545] {processor.py:161} INFO - Started process (PID=65215) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:26:09.335+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:26:09.336+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:09.336+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:26:09.338+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:09.337+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:26:09.338+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:26:09.338+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:26:09.338+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:26:09.344+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T12:27:10.998+0545] {processor.py:161} INFO - Started process (PID=65767) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:27:11.001+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:27:11.001+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.001+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:27:11.003+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.002+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:27:11.003+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:27:11.003+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:27:11.003+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:27:11.009+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T12:28:15.465+0545] {processor.py:161} INFO - Started process (PID=66400) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:28:15.469+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:28:15.469+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:15.469+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:28:15.472+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:15.471+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:28:15.472+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:28:15.472+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:28:15.472+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:28:15.478+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T12:29:19.698+0545] {processor.py:161} INFO - Started process (PID=66994) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:29:19.699+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T12:29:19.699+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:19.699+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:29:19.702+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:19.701+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T12:29:19.702+0545] {logging_mixin.py:188} INFO - [2026-07-20T12:29:19.702+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T12:29:19.702+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T12:29:19.709+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-21T00:02:49.188+0545] {processor.py:161} INFO - Started process (PID=68074) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:02:49.191+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-21T00:02:49.192+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.191+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:02:49.194+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.193+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-21T00:02:49.194+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:02:49.194+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-21T00:02:49.194+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:02:49.200+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-21T00:03:45.565+0545] {processor.py:161} INFO - Started process (PID=68676) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:03:45.568+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-21T00:03:45.569+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:45.569+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:03:45.572+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:45.571+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-21T00:03:45.572+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:03:45.572+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-21T00:03:45.572+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:03:45.579+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2026-07-21T00:04:44.678+0545] {processor.py:161} INFO - Started process (PID=69297) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:04:44.681+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-21T00:04:44.682+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:44.682+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:04:44.684+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:44.684+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-21T00:04:44.684+0545] {logging_mixin.py:188} INFO - [2026-07-21T00:04:44.684+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-21T00:04:44.685+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-21T00:04:44.691+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T13:23:36.951+0545] {processor.py:161} INFO - Started process (PID=109053) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:23:36.954+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:23:36.955+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:36.955+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:23:36.957+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:36.957+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:23:36.958+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:23:36.958+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:23:36.958+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:23:36.964+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T13:24:26.690+0545] {processor.py:161} INFO - Started process (PID=109527) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:24:26.691+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:24:26.692+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:26.692+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:24:26.694+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:26.693+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:24:26.694+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:24:26.694+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:24:26.694+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:24:26.701+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:25:29.507+0545] {processor.py:161} INFO - Started process (PID=110109) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:25:29.510+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:25:29.510+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:29.510+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:25:29.512+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:29.511+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:25:29.512+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:25:29.512+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:25:29.512+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:25:29.519+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:26:36.248+0545] {processor.py:161} INFO - Started process (PID=110680) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:26:36.249+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:26:36.250+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:36.249+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:26:36.251+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:36.251+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:26:36.252+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:26:36.251+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:26:36.252+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:26:36.258+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.013 seconds
+[2026-07-20T13:27:31.240+0545] {processor.py:161} INFO - Started process (PID=111183) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:27:31.243+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:27:31.244+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:31.243+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:27:31.246+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:31.245+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:27:31.246+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:27:31.246+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:27:31.246+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:27:31.252+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:28:36.808+0545] {processor.py:161} INFO - Started process (PID=111769) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:28:36.811+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:28:36.812+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:36.811+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:28:36.814+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:36.813+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:28:36.814+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:28:36.814+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:28:36.814+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:28:36.820+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:29:34.712+0545] {processor.py:161} INFO - Started process (PID=112291) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:29:34.715+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:29:34.716+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:34.716+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:29:34.719+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:34.718+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:29:34.719+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:29:34.719+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:29:34.720+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:29:34.726+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T13:30:39.152+0545] {processor.py:161} INFO - Started process (PID=112877) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:30:39.155+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:30:39.156+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:39.156+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:30:39.158+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:39.157+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:30:39.158+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:30:39.158+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:30:39.158+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:30:39.164+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:31:45.329+0545] {processor.py:161} INFO - Started process (PID=113479) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:31:45.332+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:31:45.333+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:45.332+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:31:45.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:45.335+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:31:45.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:31:45.335+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:31:45.336+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:31:45.342+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T13:32:47.455+0545] {processor.py:161} INFO - Started process (PID=114048) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:32:47.458+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:32:47.458+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:47.458+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:32:47.460+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:47.460+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:32:47.460+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:32:47.460+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:32:47.461+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:32:47.467+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:33:47.803+0545] {processor.py:161} INFO - Started process (PID=114585) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:33:47.806+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:33:47.806+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:47.806+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:33:47.809+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:47.808+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:33:47.809+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:33:47.809+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:33:47.809+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:33:47.816+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2026-07-20T13:34:50.261+0545] {processor.py:161} INFO - Started process (PID=115140) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:34:50.264+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:34:50.265+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:50.265+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:34:50.267+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:50.267+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:34:50.267+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:34:50.267+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:34:50.268+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:34:50.273+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2026-07-20T13:35:50.129+0545] {processor.py:161} INFO - Started process (PID=115686) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:35:50.132+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:35:50.133+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:50.132+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:35:50.135+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:50.134+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:35:50.135+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:35:50.135+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:35:50.135+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:35:50.141+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:36:55.819+0545] {processor.py:161} INFO - Started process (PID=116305) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:36:55.822+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:36:55.822+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:55.822+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:36:55.824+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:55.824+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:36:55.824+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:36:55.824+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:36:55.825+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:36:55.830+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:37:59.824+0545] {processor.py:161} INFO - Started process (PID=116881) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:37:59.827+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:37:59.828+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:59.828+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:37:59.830+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:59.829+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:37:59.830+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:37:59.830+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:37:59.830+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:37:59.836+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:39:02.786+0545] {processor.py:161} INFO - Started process (PID=117470) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:39:02.790+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:39:02.791+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:02.790+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:39:02.794+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:02.793+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:39:02.794+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:39:02.794+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:39:02.794+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:39:02.800+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2026-07-20T13:40:03.331+0545] {processor.py:161} INFO - Started process (PID=118024) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:40:03.334+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:40:03.335+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:03.335+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:40:03.337+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:03.336+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:40:03.337+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:40:03.337+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:40:03.337+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:40:03.343+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.015 seconds
+[2026-07-20T13:41:02.918+0545] {processor.py:161} INFO - Started process (PID=118579) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:41:02.921+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:41:02.922+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:02.922+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:41:02.924+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:02.924+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:41:02.925+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:41:02.925+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:41:02.925+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:41:02.930+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.016 seconds
+[2026-07-20T13:42:04.602+0545] {processor.py:161} INFO - Started process (PID=119151) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:42:04.605+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:42:04.606+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:04.606+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:42:04.607+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:04.607+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:42:04.608+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:42:04.608+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:42:04.608+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:42:04.613+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.013 seconds
+[2026-07-20T13:43:07.052+0545] {processor.py:161} INFO - Started process (PID=119747) to work on /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:43:07.055+0545] {processor.py:830} INFO - Processing file /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-07-20T13:43:07.057+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:07.056+0545] {dagbag.py:545} INFO - Filling up the DagBag from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:43:07.061+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:07.060+0545] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-07-20T13:43:07.061+0545] {logging_mixin.py:188} INFO - [2026-07-20T13:43:07.061+0545] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-07-20T13:43:07.062+0545] {processor.py:842} WARNING - No viable dags retrieved from /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-07-20T13:43:07.075+0545] {processor.py:183} INFO - Processing /home/snigdh/repos/bigData/spark_demo_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds

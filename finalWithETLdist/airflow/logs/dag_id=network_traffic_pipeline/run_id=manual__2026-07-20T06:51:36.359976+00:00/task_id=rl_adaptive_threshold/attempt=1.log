@@ -1,0 +1,68 @@
+[2026-07-20T12:55:16.169+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-20T12:55:16.185+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.rl_adaptive_threshold manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:55:16.190+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.rl_adaptive_threshold manual__2026-07-20T06:51:36.359976+00:00 [queued]>
+[2026-07-20T12:55:16.191+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-20T12:55:16.203+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): rl_adaptive_threshold> on 2026-07-20 06:51:36.359976+00:00
+[2026-07-20T12:55:16.207+0545] {standard_task_runner.py:64} INFO - Started process 87915 to run task
+[2026-07-20T12:55:16.210+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'rl_adaptive_threshold', 'manual__2026-07-20T06:51:36.359976+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmpx_sy751x']
+[2026-07-20T12:55:16.212+0545] {standard_task_runner.py:91} INFO - Job 113: Subtask rl_adaptive_threshold
+[2026-07-20T12:55:16.241+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.rl_adaptive_threshold manual__2026-07-20T06:51:36.359976+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-20T12:55:16.292+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='rl_adaptive_threshold' AIRFLOW_CTX_EXECUTION_DATE='2026-07-20T06:51:36.359976+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-20T06:51:36.359976+00:00'
+[2026-07-20T12:55:16.294+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-20T12:55:16.294+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-20T12:55:16.295+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose exec spark-master /opt/spark/bin/spark-submit --master spark://localhost:7077 --py-files /app/common.py --conf spark.ui.port=4040 --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog /app/task_rl_adaptive_threshold.py']
+[2026-07-20T12:55:16.304+0545] {subprocess.py:86} INFO - Output:
+[2026-07-20T12:55:29.055+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SparkContext: Running Spark version 3.5.0
+[2026-07-20T12:55:29.056+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SparkContext: OS info Linux, 6.8.0-136-generic, amd64
+[2026-07-20T12:55:29.056+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SparkContext: Java version 11.0.20.1
+[2026-07-20T12:55:29.155+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceUtils: ==============================================================
+[2026-07-20T12:55:29.155+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-07-20T12:55:29.156+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceUtils: ==============================================================
+[2026-07-20T12:55:29.156+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SparkContext: Submitted application: anomaly_rl_adaptive_threshold
+[2026-07-20T12:55:29.253+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-07-20T12:55:29.261+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceProfile: Limiting resource is cpu
+[2026-07-20T12:55:29.261+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-07-20T12:55:29.453+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SecurityManager: Changing view acls to: spark
+[2026-07-20T12:55:29.453+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SecurityManager: Changing modify acls to: spark
+[2026-07-20T12:55:29.453+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SecurityManager: Changing view acls groups to:
+[2026-07-20T12:55:29.454+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SecurityManager: Changing modify acls groups to:
+[2026-07-20T12:55:29.454+0545] {subprocess.py:93} INFO - 26/07/20 07:10:29 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-07-20T12:55:30.154+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO Utils: Successfully started service 'sparkDriver' on port 41939.
+[2026-07-20T12:55:30.253+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO SparkEnv: Registering MapOutputTracker
+[2026-07-20T12:55:30.446+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO SparkEnv: Registering BlockManagerMaster
+[2026-07-20T12:55:30.547+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-07-20T12:55:30.547+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-07-20T12:55:30.550+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-07-20T12:55:30.563+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-7a007222-b5f2-4ed5-9a2e-6fcd94f5d8e3
+[2026-07-20T12:55:30.645+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2026-07-20T12:55:30.656+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-07-20T12:55:30.950+0545] {subprocess.py:93} INFO - 26/07/20 07:10:30 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-07-20T12:55:31.058+0545] {subprocess.py:93} INFO - 26/07/20 07:10:31 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-07-20T12:55:31.156+0545] {subprocess.py:93} INFO - 26/07/20 07:10:31 INFO SparkContext: Added file file:///app/common.py at spark://e6ba47dbf3fb:41939/files/common.py with timestamp 1784531429046
+[2026-07-20T12:55:31.157+0545] {subprocess.py:93} INFO - 26/07/20 07:10:31 INFO Utils: Copying /app/common.py to /tmp/spark-c3b8ed80-4dc6-434c-87e2-3196ee6fbf67/userFiles-0fdfef7c-2e39-4077-bdea-36da0f23f3a7/common.py
+[2026-07-20T12:55:31.641+0545] {subprocess.py:93} INFO - 26/07/20 07:10:31 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://localhost:7077...
+[2026-07-20T12:55:31.845+0545] {subprocess.py:93} INFO - 26/07/20 07:10:31 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:7077 after 110 ms (0 ms spent in bootstraps)
+[2026-07-20T12:55:32.152+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260720071032-0009
+[2026-07-20T12:55:32.239+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720071032-0009/0 on worker-20260720065158-spark-worker1-8081 (spark-worker1:8081) with 1 core(s)
+[2026-07-20T12:55:32.243+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720071032-0009/0 on hostPort spark-worker1:8081 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T12:55:32.243+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720071032-0009/1 on worker-20260720065158-spark-worker2-8083 (spark-worker2:8083) with 1 core(s)
+[2026-07-20T12:55:32.244+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720071032-0009/1 on hostPort spark-worker2:8083 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T12:55:32.341+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37303.
+[2026-07-20T12:55:32.341+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO NettyBlockTransferService: Server created on e6ba47dbf3fb:37303
+[2026-07-20T12:55:32.343+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720071032-0009/1 is now RUNNING
+[2026-07-20T12:55:32.343+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720071032-0009/0 is now RUNNING
+[2026-07-20T12:55:32.343+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-07-20T12:55:32.350+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, e6ba47dbf3fb, 37303, None)
+[2026-07-20T12:55:32.437+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO BlockManagerMasterEndpoint: Registering block manager e6ba47dbf3fb:37303 with 413.9 MiB RAM, BlockManagerId(driver, e6ba47dbf3fb, 37303, None)
+[2026-07-20T12:55:32.439+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, e6ba47dbf3fb, 37303, None)
+[2026-07-20T12:55:32.441+0545] {subprocess.py:93} INFO - 26/07/20 07:10:32 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, e6ba47dbf3fb, 37303, None)
+[2026-07-20T12:55:33.646+0545] {subprocess.py:93} INFO - 26/07/20 07:10:33 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-07-20T12:56:06.055+0545] {subprocess.py:93} INFO - 26/07/20 07:11:06 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2026-07-20T12:56:59.449+0545] {subprocess.py:93} INFO - [RL] Adaptive-threshold agent converged: threshold=2.3 (observed flag-rate=0.0195, target=0.02)
+[2026-07-20T12:57:08.157+0545] {subprocess.py:93} INFO - [Driver] Wrote 'rl_adaptive_threshold' output -> hdfs://namenode:9000/user/demo/_scores/rl_adaptive_threshold
+[2026-07-20T12:57:09.934+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-20T12:57:09.934+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-20T12:57:09.952+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=rl_adaptive_threshold, run_id=manual__2026-07-20T06:51:36.359976+00:00, execution_date=20260720T065136, start_date=20260720T071016, end_date=20260720T071209
+[2026-07-20T12:57:09.968+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-20T12:57:09.979+0545] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-07-20T12:57:09.980+0545] {local_task_job_runner.py:222} INFO - ::endgroup::

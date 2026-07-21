@@ -1,0 +1,137 @@
+[2026-07-20T08:27:21.557+0545] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-20T08:27:21.576+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: network_traffic_pipeline.native_clustering.gmm manual__2026-07-20T02:23:05.960611+00:00 [queued]>
+[2026-07-20T08:27:21.581+0545] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: network_traffic_pipeline.native_clustering.gmm manual__2026-07-20T02:23:05.960611+00:00 [queued]>
+[2026-07-20T08:27:21.582+0545] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-07-20T08:27:21.595+0545] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): native_clustering.gmm> on 2026-07-20 02:23:05.960611+00:00
+[2026-07-20T08:27:21.600+0545] {standard_task_runner.py:64} INFO - Started process 45124 to run task
+[2026-07-20T08:27:21.603+0545] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'network_traffic_pipeline', 'native_clustering.gmm', 'manual__2026-07-20T02:23:05.960611+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/network_traffic_pipeline_dag.py', '--cfg-path', '/tmp/tmpgylbok00']
+[2026-07-20T08:27:21.605+0545] {standard_task_runner.py:91} INFO - Job 71: Subtask native_clustering.gmm
+[2026-07-20T08:27:21.639+0545] {task_command.py:426} INFO - Running <TaskInstance: network_traffic_pipeline.native_clustering.gmm manual__2026-07-20T02:23:05.960611+00:00 [running]> on host snigdh-IdeaPad-Slim-3-15IAH8
+[2026-07-20T08:27:21.698+0545] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='network_traffic_pipeline' AIRFLOW_CTX_TASK_ID='native_clustering.gmm' AIRFLOW_CTX_EXECUTION_DATE='2026-07-20T02:23:05.960611+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-20T02:23:05.960611+00:00'
+[2026-07-20T08:27:21.699+0545] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-20T08:27:21.699+0545] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-20T08:27:21.700+0545] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/snigdh/repos/bigData && docker-compose exec spark-master /opt/spark/bin/spark-submit --master spark://localhost:7077 --py-files /app/common.py --conf spark.ui.port=4040 --conf spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog /app/task_gmm.py']
+[2026-07-20T08:27:21.710+0545] {subprocess.py:86} INFO - Output:
+[2026-07-20T08:27:45.521+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO SparkContext: Running Spark version 3.5.0
+[2026-07-20T08:27:45.525+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO SparkContext: OS info Linux, 6.8.0-136-generic, amd64
+[2026-07-20T08:27:45.526+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO SparkContext: Java version 11.0.20.1
+[2026-07-20T08:27:45.822+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO ResourceUtils: ==============================================================
+[2026-07-20T08:27:45.823+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-07-20T08:27:45.823+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO ResourceUtils: ==============================================================
+[2026-07-20T08:27:45.824+0545] {subprocess.py:93} INFO - 26/07/20 02:42:45 INFO SparkContext: Submitted application: anomaly_gmm
+[2026-07-20T08:27:46.014+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-07-20T08:27:46.122+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO ResourceProfile: Limiting resource is cpu
+[2026-07-20T08:27:46.123+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-07-20T08:27:46.529+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO SecurityManager: Changing view acls to: spark
+[2026-07-20T08:27:46.530+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO SecurityManager: Changing modify acls to: spark
+[2026-07-20T08:27:46.607+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO SecurityManager: Changing view acls groups to:
+[2026-07-20T08:27:46.608+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO SecurityManager: Changing modify acls groups to:
+[2026-07-20T08:27:46.608+0545] {subprocess.py:93} INFO - 26/07/20 02:42:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+[2026-07-20T08:27:47.919+0545] {subprocess.py:93} INFO - 26/07/20 02:42:47 INFO Utils: Successfully started service 'sparkDriver' on port 33923.
+[2026-07-20T08:27:48.130+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO SparkEnv: Registering MapOutputTracker
+[2026-07-20T08:27:48.512+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO SparkEnv: Registering BlockManagerMaster
+[2026-07-20T08:27:48.627+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-07-20T08:27:48.627+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-07-20T08:27:48.709+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-07-20T08:27:48.817+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-717a21f2-124b-4c98-b0dd-adc24e9b5aa3
+[2026-07-20T08:27:48.921+0545] {subprocess.py:93} INFO - 26/07/20 02:42:48 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2026-07-20T08:27:49.110+0545] {subprocess.py:93} INFO - 26/07/20 02:42:49 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-07-20T08:27:49.631+0545] {subprocess.py:93} INFO - 26/07/20 02:42:49 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-07-20T08:27:49.919+0545] {subprocess.py:93} INFO - 26/07/20 02:42:49 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-07-20T08:27:50.124+0545] {subprocess.py:93} INFO - 26/07/20 02:42:50 INFO SparkContext: Added file file:///app/common.py at spark://bfe6d2784474:33923/files/common.py with timestamp 1784515365449
+[2026-07-20T08:27:50.126+0545] {subprocess.py:93} INFO - 26/07/20 02:42:50 INFO Utils: Copying /app/common.py to /tmp/spark-2b9bd957-0139-4002-b7fc-5b741be0e460/userFiles-b5cd4c64-65b7-456c-b031-807b448a4118/common.py
+[2026-07-20T08:27:50.923+0545] {subprocess.py:93} INFO - 26/07/20 02:42:50 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://localhost:7077...
+[2026-07-20T08:27:51.325+0545] {subprocess.py:93} INFO - 26/07/20 02:42:51 INFO TransportClientFactory: Successfully created connection to localhost/127.0.0.1:7077 after 290 ms (0 ms spent in bootstraps)
+[2026-07-20T08:27:51.927+0545] {subprocess.py:93} INFO - 26/07/20 02:42:51 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260720024251-0005
+[2026-07-20T08:27:52.007+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720024251-0005/0 on worker-20260720022328-spark-worker2-8083 (spark-worker2:8083) with 1 core(s)
+[2026-07-20T08:27:52.010+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720024251-0005/0 on hostPort spark-worker2:8083 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T08:27:52.010+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260720024251-0005/1 on worker-20260720022328-spark-worker1-8081 (spark-worker1:8081) with 1 core(s)
+[2026-07-20T08:27:52.011+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneSchedulerBackend: Granted executor ID app-20260720024251-0005/1 on hostPort spark-worker1:8081 with 1 core(s), 1024.0 MiB RAM
+[2026-07-20T08:27:52.209+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36609.
+[2026-07-20T08:27:52.209+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO NettyBlockTransferService: Server created on bfe6d2784474:36609
+[2026-07-20T08:27:52.213+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-07-20T08:27:52.309+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720024251-0005/1 is now RUNNING
+[2026-07-20T08:27:52.311+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260720024251-0005/0 is now RUNNING
+[2026-07-20T08:27:52.316+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, bfe6d2784474, 36609, None)
+[2026-07-20T08:27:52.412+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO BlockManagerMasterEndpoint: Registering block manager bfe6d2784474:36609 with 413.9 MiB RAM, BlockManagerId(driver, bfe6d2784474, 36609, None)
+[2026-07-20T08:27:52.416+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, bfe6d2784474, 36609, None)
+[2026-07-20T08:27:52.418+0545] {subprocess.py:93} INFO - 26/07/20 02:42:52 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, bfe6d2784474, 36609, None)
+[2026-07-20T08:27:53.716+0545] {subprocess.py:93} INFO - 26/07/20 02:42:53 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2026-07-20T08:29:02.024+0545] {subprocess.py:93} INFO - 26/07/20 02:44:02 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2026-07-20T08:31:04.628+0545] {subprocess.py:93} INFO - 26/07/20 02:46:04 WARN InstanceBuilder: Failed to load implementation from:dev.ludovic.netlib.blas.JNIBLAS
+[2026-07-20T08:32:02.818+0545] {subprocess.py:93} INFO - 26/07/20 02:47:02 WARN BlockManagerMaster: Failed to remove broadcast 253 with removeFromMaster = true - Block broadcast_253_piece0 does not exist
+[2026-07-20T08:32:02.819+0545] {subprocess.py:93} INFO - org.apache.spark.SparkException: Block broadcast_253_piece0 does not exist
+[2026-07-20T08:32:02.819+0545] {subprocess.py:93} INFO - 	at org.apache.spark.errors.SparkCoreErrors$.blockDoesNotExistError(SparkCoreErrors.scala:318)
+[2026-07-20T08:32:02.819+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockInfoManager.blockInfo(BlockInfoManager.scala:269)
+[2026-07-20T08:32:02.820+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockInfoManager.removeBlock(BlockInfoManager.scala:544)
+[2026-07-20T08:32:02.820+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBlockInternal(BlockManager.scala:2095)
+[2026-07-20T08:32:02.820+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBlock(BlockManager.scala:2061)
+[2026-07-20T08:32:02.820+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.$anonfun$removeBroadcast$3(BlockManager.scala:2033)
+[2026-07-20T08:32:02.820+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.$anonfun$removeBroadcast$3$adapted(BlockManager.scala:2033)
+[2026-07-20T08:32:02.821+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator.foreach(Iterator.scala:943)
+[2026-07-20T08:32:02.821+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+[2026-07-20T08:32:02.821+0545] {subprocess.py:93} INFO - 	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+[2026-07-20T08:32:02.821+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBroadcast(BlockManager.scala:2033)
+[2026-07-20T08:32:02.822+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerStorageEndpoint$$anonfun$receiveAndReply$1.$anonfun$applyOrElse$4(BlockManagerStorageEndpoint.scala:69)
+[2026-07-20T08:32:02.822+0545] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcI$sp.apply(JFunction0$mcI$sp.java:23)
+[2026-07-20T08:32:02.822+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerStorageEndpoint.$anonfun$doAsync$1(BlockManagerStorageEndpoint.scala:101)
+[2026-07-20T08:32:02.822+0545] {subprocess.py:93} INFO - 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[2026-07-20T08:32:02.822+0545] {subprocess.py:93} INFO - 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[2026-07-20T08:32:02.823+0545] {subprocess.py:93} INFO - 	at scala.util.Success.map(Try.scala:213)
+[2026-07-20T08:32:02.823+0545] {subprocess.py:93} INFO - 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[2026-07-20T08:32:02.823+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[2026-07-20T08:32:02.823+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[2026-07-20T08:32:02.823+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Unknown Source)
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - 26/07/20 02:47:02 ERROR ContextCleaner: Error cleaning broadcast 253
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2026-07-20T08:32:02.824+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56)
+[2026-07-20T08:32:02.825+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+[2026-07-20T08:32:02.825+0545] {subprocess.py:93} INFO - 	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2026-07-20T08:32:02.825+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerMaster.removeBroadcast(BlockManagerMaster.scala:222)
+[2026-07-20T08:32:02.825+0545] {subprocess.py:93} INFO - 	at org.apache.spark.broadcast.TorrentBroadcast$.unpersist(TorrentBroadcast.scala:395)
+[2026-07-20T08:32:02.825+0545] {subprocess.py:93} INFO - 	at org.apache.spark.broadcast.TorrentBroadcastFactory.unbroadcast(TorrentBroadcastFactory.scala:49)
+[2026-07-20T08:32:02.826+0545] {subprocess.py:93} INFO - 	at org.apache.spark.broadcast.BroadcastManager.unbroadcast(BroadcastManager.scala:82)
+[2026-07-20T08:32:02.826+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner.doCleanupBroadcast(ContextCleaner.scala:256)
+[2026-07-20T08:32:02.826+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner.$anonfun$keepCleaning$3(ContextCleaner.scala:204)
+[2026-07-20T08:32:02.826+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner.$anonfun$keepCleaning$3$adapted(ContextCleaner.scala:195)
+[2026-07-20T08:32:02.827+0545] {subprocess.py:93} INFO - 	at scala.Option.foreach(Option.scala:407)
+[2026-07-20T08:32:02.827+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner.$anonfun$keepCleaning$1(ContextCleaner.scala:195)
+[2026-07-20T08:32:02.827+0545] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1356)
+[2026-07-20T08:32:02.827+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner.org$apache$spark$ContextCleaner$$keepCleaning(ContextCleaner.scala:189)
+[2026-07-20T08:32:02.827+0545] {subprocess.py:93} INFO - 	at org.apache.spark.ContextCleaner$$anon$1.run(ContextCleaner.scala:79)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - Caused by: org.apache.spark.SparkException: Block broadcast_253_piece0 does not exist
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.errors.SparkCoreErrors$.blockDoesNotExistError(SparkCoreErrors.scala:318)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockInfoManager.blockInfo(BlockInfoManager.scala:269)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockInfoManager.removeBlock(BlockInfoManager.scala:544)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBlockInternal(BlockManager.scala:2095)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBlock(BlockManager.scala:2061)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.$anonfun$removeBroadcast$3(BlockManager.scala:2033)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.$anonfun$removeBroadcast$3$adapted(BlockManager.scala:2033)
+[2026-07-20T08:32:02.828+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator.foreach(Iterator.scala:943)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManager.removeBroadcast(BlockManager.scala:2033)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerStorageEndpoint$$anonfun$receiveAndReply$1.$anonfun$applyOrElse$4(BlockManagerStorageEndpoint.scala:69)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcI$sp.apply(JFunction0$mcI$sp.java:23)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at org.apache.spark.storage.BlockManagerStorageEndpoint.$anonfun$doAsync$1(BlockManagerStorageEndpoint.scala:101)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[2026-07-20T08:32:02.829+0545] {subprocess.py:93} INFO - 	at scala.util.Success.map(Try.scala:213)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2026-07-20T08:32:02.830+0545] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Unknown Source)
+[2026-07-20T08:32:33.022+0545] {subprocess.py:93} INFO - [Driver] gmm_cluster counts: {1: 3139, 3: 65, 5: 2288, 4: 66, 2: 2315, 0: 2127}, minority=3
+[2026-07-20T08:32:48.415+0545] {subprocess.py:93} INFO - [Driver] Wrote 'gmm' output -> hdfs://namenode:9000/user/demo/_scores/gmm
+[2026-07-20T08:32:52.649+0545] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-07-20T08:32:52.650+0545] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-20T08:32:52.677+0545] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=network_traffic_pipeline, task_id=native_clustering.gmm, run_id=manual__2026-07-20T02:23:05.960611+00:00, execution_date=20260720T022305, start_date=20260720T024221, end_date=20260720T024752
+[2026-07-20T08:32:52.707+0545] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-07-20T08:32:52.734+0545] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-07-20T08:32:52.735+0545] {local_task_job_runner.py:222} INFO - ::endgroup::
